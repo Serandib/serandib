@@ -1,0 +1,30 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "tailwindcss";
+
+/* Optional: your global styles */
+body {
+  @apply text-gray-900 bg-white ;
+}
+    @theme {
+      /* Define your custom colors here */
+      --color-primary: #048E96; 
+      --color-primary2 : #E86C30;
+      --color-secondary: #F5C541; 
+      --color-secondary2:  #085C6D; 
+    }
+
+    @keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-down {
+  animation: slide-down 0.2s ease-out;
+}
