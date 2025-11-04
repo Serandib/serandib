@@ -15,7 +15,7 @@ export const packagesData: Record<
         image3: string;
         image4: string;
         image5: string;
-         bannerImage: string ;
+        bannerImage: string;
       }
     >;
   }
@@ -31,13 +31,13 @@ export const packagesData: Record<
         description:
           "Guided walks through the island’s most sacred temples with a focus on history, architecture and rituals.Guided walks through the island’s most sacred temples with a focus on history, architecture and ritualsGuided walks through the island’s most sacred temples with a focus on history, architecture and ritualsGuided walks through the island’s most sacred temples with a focus on history, architecture and ritualsGuided walks through the island’s most sacred temples with a focus on history, architecture and rituals",
         description2:
-          "This extended description includes suggested itineraries, recommended timings, dress code and nearby activities. Ideal for travellers who want an immersive cultural experience.",
-        image: "/assets/Images/UpgradePage/15.png",
+          "This extended description includes suggested itineraries, recommended timings, dress code and nearby activities. Ideal for travellers who want an immersive cultural experience.This extended description includes suggested itineraries, recommended timings, dress code and nearby activities. Ideal for travellers who want an immersive cultural experience.This extended description includes suggested itineraries, recommended timings, dress code and nearby activities. Ideal for travellers who want an immersive cultural experience.This extended description includes suggested itineraries, recommended timings, dress code and nearby activities. Ideal for travellers who want an immersive cultural experience.This extended description includes suggested itineraries, recommended timings, dress code and nearby activities. Ideal for travellers who want an immersive cultural experience.This extended description includes suggested itineraries, recommended timings, dress code and nearby activities. Ideal for travellers who want an immersive cultural experience.This extended description includes suggested itineraries, recommended timings, dress code and nearby activities. Ideal for travellers who want an immersive cultural experience.This extended description includes suggested itineraries, recommended timings, dress code and nearby activities. Ideal for travellers who want an immersive cultural experience.This extended description includes suggested itineraries, recommended timings, dress code and nearby activities. Ideal for travellers who want an immersive cultural experience.",
+        image: "/assets/Images/UpgradePage/7.png",
         image2: "/assets/Images/UpgradePage/15.png",
         image3: "/assets/Images/UpgradePage/7.png",
         image4: "/assets/Images/UpgradePage/15.png",
         image5: "/assets/Images/UpgradePage/31.png",
-         bannerImage:"/assets/Images/UpgradePage/31.png",
+        bannerImage: "/assets/Images/UpgradePage/7.png",
       },
       colonialforts: {
         title: "Colonial Forts",
@@ -50,7 +50,7 @@ export const packagesData: Record<
         image3: "/assets/Images/UpgradePage/3.jpg",
         image4: "/assets/Images/UpgradePage/3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage:"/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
       },
     },
   },
@@ -71,7 +71,7 @@ export const packagesData: Record<
         image3: "/assets/Images/UpgradePage/3.jpg",
         image4: "/assets/Images/UpgradePage/3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage:"/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
       },
       factorytour: {
         title: "Factory Tour",
@@ -84,7 +84,7 @@ export const packagesData: Record<
         image3: "/assets/Images/UpgradePage/3.jpg",
         image4: "/assets/Images/UpgradePage/3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage:"/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
       },
     },
   },
@@ -105,7 +105,7 @@ export const packagesData: Record<
         image3: "/assets/Images/UpgradePage/3.jpg",
         image4: "/assets/Images/UpgradePage/3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage:"/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
       },
       advancedsurf: {
         title: "Advanced Surf Package",
@@ -118,7 +118,7 @@ export const packagesData: Record<
         image3: "/assets/Images/UpgradePage/3.jpg",
         image4: "/assets/Images/UpgradePage/3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage:"/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
       },
     },
   },
@@ -139,7 +139,7 @@ export const packagesData: Record<
         image3: "/assets/Images/UpgradePage/3.jpg",
         image4: "/assets/Images/UpgradePage/3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage:"/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
       },
       birdwatchingexpedition: {
         title: "Birdwatching Expedition",
@@ -152,7 +152,7 @@ export const packagesData: Record<
         image3: "/assets/Images/UpgradePage/3.jpg",
         image4: "/assets/Images/UpgradePage/3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage:"/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
       },
     },
   },
@@ -173,7 +173,7 @@ export const packagesData: Record<
         image3: "/assets/Images/UpgradePage/3.jpg",
         image4: "/assets/Images/UpgradePage/3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage:"/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
       },
       meditationretreat: {
         title: "Meditation Retreat",
@@ -186,7 +186,7 @@ export const packagesData: Record<
         image3: "/assets/Images/UpgradePage/3.jpg",
         image4: "/assets/Images/UpgradePage/3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage:"/assets/Images/UpgradePage/10.png",
+        bannerImage: "/assets/Images/UpgradePage/10.png",
       },
     },
   },
@@ -207,7 +207,7 @@ export const packagesData: Record<
         image3: "/assets/Images/UpgradePage/3.jpg",
         image4: "/assets/Images/UpgradePage/3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage:"/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
       },
       mountaintrail: {
         title: "Mountain Trail",
@@ -220,7 +220,7 @@ export const packagesData: Record<
         image3: "/assets/Images/UpgradePage/3.jpg",
         image4: "/assets/Images/UpgradePage/3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage:"/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
       },
     },
   },

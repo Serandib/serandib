@@ -48,7 +48,7 @@ export default async function SubPackagePage({ params }: Props) {
             Most Popular
           </div>
         </div>
-        <div className="flex flex-row gap-5">
+        <div className="flex md:flex-row flex-col gap-5">
           <div className="flex">
             <Image
               width={700}
@@ -91,26 +91,33 @@ export default async function SubPackagePage({ params }: Props) {
             />
           </div>
         </div>
-        <div className="flex flex-row justify-between">
+        <div className="flex md:flex-row flex-col justify-between">
           <div className="w-1/2 text-lg font-medium mt-5 flex flex-col">
-            <div>{sub.description}</div>
-            <ReadMoreModal
-              title={sub.title}
-              description={sub.description2}
-              images={[sub.image]}
-            />
+            <div className="font-medium ">{sub.description}</div>
+             <ReadMoreModal
+                    title={sub.title}
+                    description={sub.description2}
+                    images={[
+                      sub.image,
+                      sub.image2,
+                      sub.image3,
+                      // sub.image4,
+                      // sub.image5,
+                    ].filter(Boolean)}
+                    bannerImage={sub.bannerImage}
+                  />
           </div>
-          <div className="flex w-1/2 justify-center pt-10 flex-col gap-5 items-center">
+          <div className="flex w-1/2 justify-center mt-5 flex-col gap-5 items-center">
             <Link
               href="/ContactUs#faq-section"
-              className="bg-primary2 p-5 rounded-xl w-96 text-center font-medium text-white flex flex-row gap-5 justify-center"
+              className="bg-primary2 p-3 rounded-xl w-96 text-center font-medium text-white flex flex-row gap-5 justify-center"
             >
               <Flag />
               Contact Us
             </Link>{" "}
             <Link
               href=""
-              className="bg-[#00EB5B] p-5 rounded-xl font-semibold flex flex-row gap-1 justify-center text-center w-96 items-center"
+              className="bg-[#00EB5B] p-2 rounded-xl font-semibold flex flex-row gap-1 justify-center text-center w-96 items-center"
             >
               {" "}
               <SiTripadvisor

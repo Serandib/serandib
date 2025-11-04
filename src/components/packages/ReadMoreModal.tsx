@@ -30,30 +30,31 @@ export default function ReadMoreModal({
       </button>
 
       {open && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto">
+        <div className="fixed inset-0 z-50 flex items-center justify-center ">
           <div
             className="absolute inset-0 bg-black/60"
             onClick={() => setOpen(false)}
           />
 
-          <div className="relative max-w-7xl w-full bg-white rounded-lg shadow-lg mx-4 overflow-hidden">
+          <div className="relative max-w-3xl w-full bg-white rounded-lg shadow-lg mx-4 overflow-hidden">
             {/* === Top Banner Image === */}
-            {images && images.length > 0 && (
+            {(bannerImage || (images && images.length > 0 && images[0])) && (
               <div className="relative w-full h-60 md:h-80">
                 <Image
-                  src={images[0]}
+                  src={bannerImage ?? images![0]}
                   alt="Banner"
                   fill
-                  className="object-cover"
+                  className="object-cover"     
+                  // Change the view of the bannner image
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-white via-white/70 to-transparent" />
               </div>
             )}
 
             {/* === Scrollable Content Section === */}
-            <div className="relative p-6 overflow-y-auto max-h-[80vh]">
+            <div className="relative p-6 overflow-y-auto max-h-[60vh]">
               <div className="flex justify-between items-start">
-                <div className="w-full">
+                <div className="w-full text-justify mx-5">
                   {title && (
                     <h3 className="text-2xl font-bold mb-2">{title}</h3>
                   )}
@@ -73,9 +74,7 @@ export default function ReadMoreModal({
                             className="w-full h-40 relative rounded overflow-hidden"
                           >
                             <Image
-                              src={
-                                bannerImage || (images?.[1] ?? "/default.jpg")
-                              }
+                              src={src || bannerImage || "/default.jpg"}
                               alt={`${title ?? "image"} ${idx + 1}`}
                               fill
                               className="object-cover"
