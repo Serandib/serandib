@@ -7,14 +7,18 @@ import Container from "@/components/common/container";
 export default function PackagesPage() {
   const packages = [
     {
-      name: "Cultural Heritage Tour",
+      name: "Cultural - Heritage Tours",
       image: "/assets/Images/UpgradePage/15.png",
     },
-    { name: "Tea Country Escape", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Surf & Beach Holiday", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Wildlife Safari", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Pilgrimage Journey", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Adventure & Trekking", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Beach Holidays", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Wildlife - Nature Tours", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Ayurveda and Wellness Tours", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Ramayana Yathra", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Adventure Tours", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Dream Weddings", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Romantic Holidays", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Northern Sri Lanka", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Excursions", image: "/assets/Images/UpgradePage/2.jpg" },
   ];
 
   return (
@@ -68,13 +72,12 @@ export default function PackagesPage() {
                 </motion.h3>
 
                 <motion.p
-                  className="text-sm text-white/70 leading-snug"
+                  className=" leading-snug w-24 h-1 bg-white/70"
                   initial={{ opacity: 0, y: 15 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 }}
                 >
-                  Embark on an unforgettable journey filled with unique
-                  experiences and breathtaking moments.
+                 
                 </motion.p>
               </div>
 

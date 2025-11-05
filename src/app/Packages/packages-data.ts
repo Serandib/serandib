@@ -20,14 +20,14 @@ export const packagesData: Record<
     >;
   }
 > = {
-  culturalheritagetour: {
+  'cultural-heritagetours': {
     title: "Cultural Heritage Tour",
     description:
       "Explore ancient temples, colonial forts, and traditional villages to experience Sri Lanka’s rich cultural tapestry. This package combines historical sites, local cuisine, and curated guided experiences.",
     image: "/assets/Images/UpgradePage/3.jpg",
     children: {
       templewalks: {
-        title: "Temple Walks",
+        title: "6 Days / 5 Nights – Signature Sri Lanka Journey",
         description:
           "Guided walks through the island’s most sacred temples with a focus on history, architecture and rituals.Guided walks through the island’s most sacred temples with a focus on history, architecture and ritualsGuided walks through the island’s most sacred temples with a focus on history, architecture and ritualsGuided walks through the island’s most sacred temples with a focus on history, architecture and ritualsGuided walks through the island’s most sacred temples with a focus on history, architecture and rituals",
         description2:
@@ -54,7 +54,7 @@ export const packagesData: Record<
       },
     },
   },
-  teacountryescape: {
+  'beachholidays': {
     title: "Tea Country Escape",
     description:
       "Wander through misty tea plantations, visit a working tea factory, and stay in charming hill-country accommodations. Perfect for a relaxed, scenic getaway.",
@@ -88,7 +88,7 @@ export const packagesData: Record<
       },
     },
   },
-  surfbeachholiday: {
+  'wildlife-naturetours': {
     title: "Surf & Beach Holiday",
     description:
       "Catch waves at world-class breaks, enjoy beachside stays, and unwind with coastal cuisine and nightlife. Great for surf lovers and sun-seekers.",
@@ -122,7 +122,7 @@ export const packagesData: Record<
       },
     },
   },
-  wildlifesafari: {
+  'ayurvedaandwellnesstours': {
     title: "Wildlife Safari",
     description:
       "Track elephants, leopards, and diverse birdlife across national parks. Includes guided safaris and recommended photography spots.",
@@ -156,7 +156,7 @@ export const packagesData: Record<
       },
     },
   },
-  pilgrimagejourney: {
+  'ramayanayathra': {
     title: "Pilgrimage Journey",
     description:
       "Visit sacred sites and participate in local rituals. A thoughtful route for spiritual travelers and those interested in religious heritage.",
@@ -190,7 +190,143 @@ export const packagesData: Record<
       },
     },
   },
-  adventuretrekking: {
+  'adventuretours': {
+    title: "Adventure & Trekking",
+    description:
+      "Hike scenic trails, discover waterfalls and remote villages, and experience the island’s dramatic landscapes on foot.",
+    image: "/assets/Images/UpgradePage/2.jpg",
+    children: {
+      waterfallhike: {
+        title: "Waterfall Hike",
+        description:
+          "Day hikes to spectacular waterfalls, including picnic stops and swimming where safe.",
+        description2:
+          "Includes recommended footwear, difficulty grading, water safety tips and seasonal flow information to help choose the best time to visit.",
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+      mountaintrail: {
+        title: "Mountain Trail",
+        description:
+          "Multi-day treks across mountain ridges with local guides and overnight camping.",
+        description2:
+          "Details include trek length, elevation changes, pack lists, campsite facilities and altitude considerations for longer treks.",
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+    },
+  },
+  'dreamweddings': {
+    title: "Adventure & Trekking",
+    description:
+      "Hike scenic trails, discover waterfalls and remote villages, and experience the island’s dramatic landscapes on foot.",
+    image: "/assets/Images/UpgradePage/2.jpg",
+    children: {
+      waterfallhike: {
+        title: "Waterfall Hike",
+        description:
+          "Day hikes to spectacular waterfalls, including picnic stops and swimming where safe.",
+        description2:
+          "Includes recommended footwear, difficulty grading, water safety tips and seasonal flow information to help choose the best time to visit.",
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+      mountaintrail: {
+        title: "Mountain Trail",
+        description:
+          "Multi-day treks across mountain ridges with local guides and overnight camping.",
+        description2:
+          "Details include trek length, elevation changes, pack lists, campsite facilities and altitude considerations for longer treks.",
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+    },
+  },
+  'romanticholidays': {
+    title: "Adventure & Trekking",
+    description:
+      "Hike scenic trails, discover waterfalls and remote villages, and experience the island’s dramatic landscapes on foot.",
+    image: "/assets/Images/UpgradePage/2.jpg",
+    children: {
+      waterfallhike: {
+        title: "Waterfall Hike",
+        description:
+          "Day hikes to spectacular waterfalls, including picnic stops and swimming where safe.",
+        description2:
+          "Includes recommended footwear, difficulty grading, water safety tips and seasonal flow information to help choose the best time to visit.",
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+      mountaintrail: {
+        title: "Mountain Trail",
+        description:
+          "Multi-day treks across mountain ridges with local guides and overnight camping.",
+        description2:
+          "Details include trek length, elevation changes, pack lists, campsite facilities and altitude considerations for longer treks.",
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+    },
+  },
+  'northernsrilanka': {
+    title: "Adventure & Trekking",
+    description:
+      "Hike scenic trails, discover waterfalls and remote villages, and experience the island’s dramatic landscapes on foot.",
+    image: "/assets/Images/UpgradePage/2.jpg",
+    children: {
+      waterfallhike: {
+        title: "Waterfall Hike",
+        description:
+          "Day hikes to spectacular waterfalls, including picnic stops and swimming where safe.",
+        description2:
+          "Includes recommended footwear, difficulty grading, water safety tips and seasonal flow information to help choose the best time to visit.",
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+      mountaintrail: {
+        title: "Mountain Trail",
+        description:
+          "Multi-day treks across mountain ridges with local guides and overnight camping.",
+        description2:
+          "Details include trek length, elevation changes, pack lists, campsite facilities and altitude considerations for longer treks.",
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+    },
+  },
+  'excursions': {
     title: "Adventure & Trekking",
     description:
       "Hike scenic trails, discover waterfalls and remote villages, and experience the island’s dramatic landscapes on foot.",

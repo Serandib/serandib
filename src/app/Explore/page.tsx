@@ -4,6 +4,7 @@ import Container from "@/components/common/container";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import { lato, playfair } from "@/styles/fonts/fonts";
 
 export default function ExplorePage() {
   const router = useRouter();
@@ -11,14 +12,14 @@ export default function ExplorePage() {
   const exploreSections = [
     {
       title: "Destinations",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      text: "Discover Sri Lanka’s diverse destinations, each offering something uniquely magical. Wander through the misty highlands of Nuwara Eliya, marvel at the sacred temples of Kandy, explore the cultural triangle’s ancient cities, or relax along the palm-fringed southern coast. Venture into the wilderness of Yala or Wilpattu for a glimpse of majestic wildlife, or sail through the calm lagoons of the east. Wherever you go, you’ll find beauty, history, and authentic island charm.",
       image: "/assets/Images/UpgradePage/56.png",
       reverse: false,
       link: "/Explore/Destinations",
     },
     {
       title: "Things to Do",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      text: "Sri Lanka is a playground of experiences for every kind of traveler. Trek through rainforest trails, go white-water rafting in Kitulgala, or take a scenic train ride through the hills. Indulge in a rejuvenating ayurvedic spa, taste flavorful local cuisine, or join a traditional cooking class. Witness majestic elephants on safari, watch whales in the deep blue seas, or simply unwind with a sunset on the beach. Every moment here is an adventure, every experience, a memory to cherish.",
       image: "/assets/Images/UpgradePage/56.png",
       reverse: true,
       link: "/Explore/Things",
@@ -36,7 +37,6 @@ export default function ExplorePage() {
       image: "/assets/Images/UpgradePage/56.png",
       reverse: true,
       link: "/Explore/Attraction",
-
     },
   ];
 
@@ -49,12 +49,21 @@ export default function ExplorePage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <h1 className="font-extrabold md:text-6xl text-4xl text-primary mb-5 mt-5 font-[Momo_Signature]">
+          <h1
+            className={`${playfair.className} font-medium md:text-6xl text-4xl text-primary mb-5 mt-5`}
+          >
             Explore Sri Lanka
           </h1>
-          <p className="text-gray-600 md:w-2/3 w-full text-lg leading-relaxed font-[Times_New_Roman]">
-            Discover the beauty, culture, and charm of Sri Lanka — where every
-            journey unveils a new story waiting to be told.
+          <p
+            className={`${lato.className} text-gray-600 w-full text-lg leading-relaxed `}
+          >
+            Step into the heart of Sri Lanka, an island of timeless beauty and
+            endless wonder. From golden beaches kissed by the Indian Ocean to
+            emerald tea-carpeted hills and ancient cities whispering stories of
+            glorious kingdoms, every landscape has its own rhythm. Explore the
+            warmth of the people, the richness of the culture, and the island’s
+            vibrant mix of nature and heritage. Sri Lanka isn’t just a
+            destination, it’s a journey that stays with you forever.
           </p>
         </motion.div>
 
@@ -89,10 +98,10 @@ export default function ExplorePage() {
                   section.reverse ? "text-left" : "text-right"
                 }`}
               >
-                <h2 className="font-bold text-3xl text-gray-900 font-[Times_New_Roman]">
+                <h2 className={`${lato.className} font-bold text-3xl text-gray-900 `}>
                   {section.title}
                 </h2>
-                <p className="text-gray-600 mt-5 text-lg leading-relaxed">
+                <p className={`${lato.className} text-gray-600 mt-5 text-lg leading-relaxed `}>
                   {section.text}
                 </p>
                 <div

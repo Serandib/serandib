@@ -44,14 +44,14 @@ export default async function SubPackagePage({ params }: Props) {
       <div className="mt-44">
         <div className="flex flex-col mb-5">
           <div className="text-4xl font-bold  mb-5 flex">{sub.title}</div>
-          <div className="rounded-2xl bg-primary text-white p-2 flex w-36 text-center justify-center ">
+          <div className="rounded-2xl bg-primary text-white p-1 flex w-32  text-center justify-center ">
             Most Popular
           </div>
         </div>
         <div className="flex md:flex-row flex-col gap-5">
           <div className="flex">
             <Image
-              width={700}
+              width={500}
               height={400}
               src={sub.image}
               alt={sub.title}
@@ -60,14 +60,14 @@ export default async function SubPackagePage({ params }: Props) {
           </div>
           <div className="flex  flex-col gap-5">
             <Image
-              width={400}
+              width={300}
               height={300}
               src={sub.image2}
               alt={sub.title}
               className="rounded  shadow-lg"
             />
             <Image
-              width={400}
+              width={300}
               height={300}
               src={sub.image3}
               alt={sub.title}
@@ -76,14 +76,14 @@ export default async function SubPackagePage({ params }: Props) {
           </div>
           <div className="flex  flex-col gap-5">
             <Image
-              width={400}
+              width={300}
               height={300}
               src={sub.image4}
               alt={sub.title}
               className="rounded  shadow-lg"
             />
             <Image
-              width={400}
+              width={300}
               height={300}
               src={sub.image5}
               alt={sub.title}
