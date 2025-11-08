@@ -1,11 +1,11 @@
 import { INavLinks } from "@/types/nav";
 
 const navlinks: INavLinks[] = [
-  {
-    id: 1,
-    name: "Home",
-    link: "/",
-  },
+  // {
+  //   id: 1,
+  //   name: "Home",
+  //   link: "/",
+  // },
   {
     id: 2,
     name: "Tours & Packages",
@@ -27,10 +27,10 @@ const navlinks: INavLinks[] = [
     name: "About Us",
     link: "/AboutUs",
   },
-  {
-    id: 6,
-    name: "Contact Us",
-    link: "/ContactUs",
-  },
+  // {
+  //   id: 6,
+  //   name: "Contact Us",
+  //   link: "/ContactUs",
+  // },
 ];
 export default navlinks;

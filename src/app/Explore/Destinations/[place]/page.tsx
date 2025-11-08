@@ -1,3 +1,4 @@
+import { playfair, sans3 } from "@/styles/fonts/fonts";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
@@ -80,7 +81,8 @@ const destinationsData: Record<
       "Unawatuna Beach – Popular for relaxation and snorkeling.",
       "Jungle Beach – A hidden gem for nature lovers.",
     ],
-    bestTimeToVisit: "📅 December to April – Ideal beach weather and calm seas.",
+    bestTimeToVisit:
+      "📅 December to April – Ideal beach weather and calm seas.",
   },
   yala: {
     title: "Yala – The Wildlife Kingdom",
@@ -107,8 +109,7 @@ const destinationsData: Record<
       "Kosgoda Turtle Hatchery – Witness turtle conservation efforts.",
       "Brief Garden & Lunuganga Estate – Architectural masterpieces by Geoffrey Bawa.",
     ],
-    bestTimeToVisit:
-      "📅 November to April – Calm seas and sunny weather.",
+    bestTimeToVisit: "📅 November to April – Calm seas and sunny weather.",
   },
   sigiriya: {
     title: "Sigiriya – The Iconic Lion Rock Fortress",
@@ -215,48 +216,56 @@ interface Props {
 
 export default async function DestinationPage({ params }: Props) {
   const resolvedParams = await params;
-  const placeKey =  resolvedParams.place.replace(/\s+/g, "").toLowerCase();
+  const placeKey = resolvedParams.place.replace(/\s+/g, "").toLowerCase();
   const destination = destinationsData[placeKey];
 
   if (!destination) notFound();
 
   return (
-    <div className="p-10 flex flex-col items-center mt-40">
-      <h1 className="text-4xl font-bold text-primary mb-5 text-center">
+    <div className="p-10 flex flex-col items-center mt-32">
+      <h1
+        className={`${playfair.className} text-4xl font-bold text-primary mb-5 text-center`}
+      >
         {destination.title}
       </h1>
-      <Image
-        width={150}
-        height={150}
-        src={destination.image}
-        alt={destination.title}
-        className="rounded-2xl w-full max-w-xl shadow-lg"
-      />
-      <p className="mt-5 text-lg text-center max-w-3xl">
-        {destination.description}
-      </p>
-
-      {destination.topPlaces && (
-        <div className="mt-10 text-left max-w-3xl">
-          <h2 className="text-2xl font-semibold text-primary mb-3">
-            Top Places to Visit:
-          </h2>
-          <ul className="list-disc list-inside text-lg space-y-2">
-            {destination.topPlaces.map((place, index) => (
-              <li key={index}>{place}</li>
-            ))}
-          </ul>
+      <div className="flex md:flex-row md:gap-40 flex-col gap-16 ">
+        <div className="flex">
+          <Image
+            width={150}
+            height={150}
+            src={destination.image}
+            alt={destination.title}
+            className="rounded-2xl w-full max-w-xl shadow-lg"
+          />
         </div>
-      )}
+        <div className={` flex flex-col`}>
+          <p className={`mt-5 text-lg max-w-3xl text-justify `}>
+            {destination.description}
+          </p>
 
-      {destination.bestTimeToVisit && (
-        <div className="mt-8 text-left max-w-3xl">
-          <h2 className="text-2xl font-semibold text-primary mb-3">
-            Best Time to Visit:
-          </h2>
-          <p className="text-lg">{destination.bestTimeToVisit}</p>
+          {destination.topPlaces && (
+            <div className="mt-10 text-left max-w-3xl">
+              <h2 className="text-2xl font-semibold text-primary mb-3">
+                Top Places to Visit:
+              </h2>
+              <ul className="list-disc list-inside text-lg space-y-2">
+                {destination.topPlaces.map((place, index) => (
+                  <li key={index}>{place}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {destination.bestTimeToVisit && (
+            <div className="mt-8 text-left max-w-3xl">
+              <h2 className="text-2xl font-semibold text-primary mb-3">
+                Best Time to Visit:
+              </h2>
+              <p className="text-lg">{destination.bestTimeToVisit}</p>
+            </div>
+          )}
         </div>
-      )}
+      </div>
     </div>
   );
 }

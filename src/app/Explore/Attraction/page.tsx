@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Container from "@/components/common/container";
+import { playfair } from "@/styles/fonts/fonts";
 
 export default function AttractionPage() {
   const attractions = [
@@ -43,14 +44,9 @@ export default function AttractionPage() {
   return (
     <Container>
       <div className="p-8 md:p-16 mt-32">
-        <motion.h2
-          className="text-4xl md:text-5xl font-extrabold text-center text-primary mb-12"
-          initial={{ opacity: 0, y: -30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-        >
+        <div className={`${playfair.className} text-4xl md:text-5xl font-medium text-center text-primary mb-12`}>
           Attractions
-        </motion.h2>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {attractions.map((attraction) => (
@@ -69,15 +65,35 @@ export default function AttractionPage() {
               />
 
               {/* Blurred overlay */}
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              {/* <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute inset-0 bg-white/20 backdrop-blur-lg rounded-3xl"></div>
                 <h2 className="relative text-black text-2xl font-bold text-center px-4 z-10">
                   {attraction.name}
                 </h2>
+              </div> */}
+              <div className="absolute bottom-6 left-6 right-6 text-white z-10">
+                <motion.h3
+                  className="text-2xl font-semibold mb-2 group-hover:text-white/90"
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.2 }}
+                >
+                  {attraction.name}
+                </motion.h3>
+
+                <motion.p
+                  className=" leading-snug w-24 h-1 bg-white/70"
+                  initial={{ opacity: 0, y: 15 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.3 }}
+                ></motion.p>
               </div>
 
               <Link
-                href={`/Explore/Attraction/${attraction.name.replace(/\s+/g, "")}`}
+                href={`/Explore/Attraction/${attraction.name.replace(
+                  /\s+/g,
+                  ""
+                )}`}
                 className="absolute inset-0"
               />
             </motion.div>

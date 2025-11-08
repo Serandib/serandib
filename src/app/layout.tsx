@@ -1,5 +1,4 @@
-import type { Metadata } from "next";
-import { poppins } from "@/styles/fonts/fonts";
+import { sans3 } from "@/styles/fonts/fonts";
 import "./globals.css";
 
 import { cn } from "@/lib/utils";
@@ -14,11 +13,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <head></head>
-      <body className={cn("relative h-full antialiased", poppins.className)}>
+      <body className={cn("relative h-full antialiased", sans3.className)}>
         <main
           vaul-drawer-wrapper=""
           className="z-20 relative flex flex-col min-h-screen bg-gray-0"
-        > <Navbar />
+        >
+          {" "}
+          <Navbar />
           <div>{children}</div>
           <Footer />
         </main>

@@ -4,7 +4,7 @@ import Container from "@/components/common/container";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-import { lato, playfair } from "@/styles/fonts/fonts";
+import { sans3, playfair } from "@/styles/fonts/fonts";
 
 export default function ExplorePage() {
   const router = useRouter();
@@ -26,14 +26,14 @@ export default function ExplorePage() {
     },
     {
       title: "Sri Lankan Events",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      text: "Sri Lanka is a land of celebration, where every month brings a new reason to gather, rejoice, and share in centuries-old traditions. From the vibrant Kandy Esala Perahera, with its majestic elephants and dazzling processions, to the soulful Vesak lanterns lighting up the night sky, each event reflects the island’s rich cultural spirit. Experience the colorful pageantry of local festivals, traditional dance performances, and cultural fairs that showcase the warmth, devotion, and joy of its people. Whether it’s a grand national festival or a village ceremony, every celebration invites you to be part of Sri Lanka’s living heritage.",
       image: "/assets/Images/UpgradePage/56.png",
       reverse: false,
       link: "/Explore/Events",
     },
     {
       title: "Attractions",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      text: "From ancient cities to natural wonders, Sri Lanka’s attractions promise to captivate every traveler. Explore the UNESCO World Heritage sites of Sigiriya, Polonnaruwa, and Anuradhapura, each echoing the island’s royal past. Wander through lush tea plantations, mist-covered mountains, and wildlife sanctuaries teeming with life. Discover the architectural beauty of colonial towns, sacred temples, and golden beaches that stretch for miles. Whether you’re seeking history, nature, or adventure, Sri Lanka’s attractions offer a perfect balance of serenity, excitement, and timeless beauty.",
       image: "/assets/Images/UpgradePage/56.png",
       reverse: true,
       link: "/Explore/Attraction",
@@ -43,29 +43,35 @@ export default function ExplorePage() {
   return (
     <Container>
       <div className="mt-32 mb-20">
-        <motion.div
-          className="flex flex-col items-center text-center"
-          initial={{ opacity: 0, y: -30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-        >
-          <h1
-            className={`${playfair.className} font-medium md:text-6xl text-4xl text-primary mb-5 mt-5`}
-          >
-            Explore Sri Lanka
-          </h1>
-          <p
-            className={`${lato.className} text-gray-600 w-full text-lg leading-relaxed `}
-          >
-            Step into the heart of Sri Lanka, an island of timeless beauty and
-            endless wonder. From golden beaches kissed by the Indian Ocean to
-            emerald tea-carpeted hills and ancient cities whispering stories of
-            glorious kingdoms, every landscape has its own rhythm. Explore the
-            warmth of the people, the richness of the culture, and the island’s
-            vibrant mix of nature and heritage. Sri Lanka isn’t just a
-            destination, it’s a journey that stays with you forever.
-          </p>
-        </motion.div>
+        <div className="flex md:flex-row  flex-col gap-32 ">
+          <div className="flex-1 flex-col">
+            <h1
+              className={`${playfair.className} font-medium md:text-6xl text-4xl text-primary mb-5 mt-5`}
+            >
+              Explore Sri Lanka
+            </h1>
+            <p
+              className={`${sans3.className} text-gray-600 w-full md:text-xl leading-relaxed text-justify `}
+            >
+              Step into the heart of Sri Lanka, an island of timeless beauty and
+              endless wonder. From golden beaches kissed by the Indian Ocean to
+              emerald tea-carpeted hills and ancient cities whispering stories
+              of glorious kingdoms, every landscape has its own rhythm. Explore
+              the warmth of the people, the richness of the culture, and the
+              island’s vibrant mix of nature and heritage. Sri Lanka isn’t just
+              a destination, it’s a journey that stays with you forever.
+            </p>
+          </div>
+          <div className="md:flex mt-5 hidden">
+            <Image
+              src="/assets/Images/UpgradePage/3.jpg"
+              alt=""
+              width={400}
+              height={400}
+              className="rounded-2xl"
+            ></Image>
+          </div>
+        </div>
 
         <div className="mt-24 flex flex-col gap-28">
           {exploreSections.map((section, index) => (
@@ -73,7 +79,7 @@ export default function ExplorePage() {
               key={index}
               className={`flex flex-col md:flex-row ${
                 section.reverse ? "md:flex-row-reverse" : ""
-              } items-center gap-12`}
+              } items-center justify-between `}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -82,13 +88,13 @@ export default function ExplorePage() {
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
-                className="w-full md:w-1/2 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl"
+                className="w-full md:w-96 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl"
               >
                 <Image
                   src={section.image}
                   alt={section.title}
-                  width={600}
-                  height={400}
+                  width={200}
+                  height={200}
                   className="object-cover w-full h-[350px]"
                 />
               </motion.div>
@@ -98,10 +104,14 @@ export default function ExplorePage() {
                   section.reverse ? "text-left" : "text-right"
                 }`}
               >
-                <h2 className={`${lato.className} font-bold text-3xl text-gray-900 `}>
+                <h2
+                  className={`${playfair.className} font-bold text-3xl text-gray-900 mt-5 `}
+                >
                   {section.title}
                 </h2>
-                <p className={`${lato.className} text-gray-600 mt-5 text-lg leading-relaxed `}>
+                <p
+                  className={`${sans3.className} text-gray-600 mt-5 md:text-xl leading-relaxed text-justify`}
+                >
                   {section.text}
                 </p>
                 <div

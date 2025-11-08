@@ -3,6 +3,7 @@
 import { useParams } from "next/navigation";
 import Container from "@/components/common/container";
 import Image from "next/image";
+import { playfair } from "@/styles/fonts/fonts";
 
 const thingsData: Record<
   string,
@@ -192,9 +193,11 @@ export default function ThingDetailsPage() {
   }
 
   return (
-     <Container>
+    <Container>
       <div className="flex flex-col items-start justify-start py-10 gap-6 mt-40">
-        <h1 className="text-3xl md:text-5xl font-bold text-primary">
+        <h1
+          className={`${playfair.className} text-3xl md:text-5xl font-medium text-primary`}
+        >
           {data.title}
         </h1>
 
@@ -208,41 +211,42 @@ export default function ThingDetailsPage() {
           />
         </div>
 
-        <p className="text-lg md:text-xl text-gray-700 leading-relaxed mt-4">
+        <p className="text-lg md:text-xl text-gray-700 leading-relaxed mt-4 text-justify">
           {data.description}
         </p>
+        <div className="flex md:flex-row flex-col md:gap-40 gap-10 text-lg">
+          <div className="flex flex-col">
+            <h2 className="text-2xl font-semibold mt-6 mb-2 text-primary">
+              Best Locations
+            </h2>
+            <ul className="list-disc list-inside text-gray-700">
+              {data.bestLocations.map((loc, index) => (
+                <li key={index}>{loc}</li>
+              ))}
+            </ul>
+          </div>
 
-        <div>
-          <h2 className="text-2xl font-semibold mt-6 mb-2 text-primary">
-            Best Locations
-          </h2>
-          <ul className="list-disc list-inside text-gray-700">
-            {data.bestLocations.map((loc, index) => (
-              <li key={index}>{loc}</li>
-            ))}
-          </ul>
-        </div>
+          <div className="flex flex-col">
+            <h2 className="text-2xl font-semibold mt-6 mb-2 text-green-700">
+              Things to Remember
+            </h2>
+            <ul className="list-disc list-inside text-gray-700">
+              {data.thingsToRemember.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
 
-        <div>
-          <h2 className="text-2xl font-semibold mt-6 mb-2 text-green-700">
-            Things to Remember
-          </h2>
-          <ul className="list-disc list-inside text-gray-700">
-            {data.thingsToRemember.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </div>
-
-        <div>
-          <h2 className="text-2xl font-semibold mt-6 mb-2 text-red-700">
-            Things to Avoid
-          </h2>
-          <ul className="list-disc list-inside text-gray-700">
-            {data.thingsToAvoid.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
+          <div className="flex flex-col">
+            <h2 className="text-2xl font-semibold mt-6 mb-2 text-red-700">
+              Things to Avoid
+            </h2>
+            <ul className="list-disc list-inside text-gray-700">
+              {data.thingsToAvoid.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </Container>

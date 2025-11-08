@@ -6,32 +6,43 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import Container from "../common/container";
 import navlinks from "@/data/navbar/nav-links";
+import Button from "../common/button";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white  fixed top-0 left-0 w-full z-50 h-32 shadow-md">
+    <nav className="bg-white  fixed top-0 left-0 w-full z-50 h-28 shadow-md">
       <Container>
         <div className="flex justify-between items-center ">
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/">
-              <Image src="/assets/Logo.png" alt="Logo" width={150} height={100} />
+              <Image
+                src="/assets/Logo.png"
+                alt="Logo"
+                width={150}
+                height={100}
+              />
             </Link>
           </div>
 
           {/* Desktop Nav Links */}
-          <div className="hidden md:flex flex-row gap-12">
-            {navlinks.map((item) => (
-              <Link
-                key={item.id}
-                href={item.link}
-                className="hover:text-primary hover:underline cursor-pointer"
-              >
-                {item.name}
-              </Link>
-            ))}
+          <div className="hidden md:flex flex-row gap-12 items-center justify-center">
+            <div className="flex gap-10">
+              {navlinks.map((item) => (
+                <Link
+                  key={item.id}
+                  href={item.link}
+                  className="hover:text-primary hover:underline cursor-pointer text-lg"
+                >
+                  {item.name}
+                </Link>
+              ))}
+            </div>
+            <div className="flex">
+              <button className="bg-primary rounded-xl p-2 px-3 text-white cursor-pointer hover:bg-secondary2 text-lg">Contact Us</button>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}

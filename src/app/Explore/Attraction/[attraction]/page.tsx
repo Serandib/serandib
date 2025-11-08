@@ -1,3 +1,4 @@
+import { playfair } from "@/styles/fonts/fonts";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
@@ -126,28 +127,33 @@ export default async function AttractionItemPage({ params }: Props) {
   if (!attraction) notFound();
 
   return (
-    <div className="p-10 flex flex-col items-center mt-40">
-      <h1 className="text-4xl font-bold text-primary mb-5">
+    <div className="p-10 flex flex-col items-center mt-40 gap-5">
+      <h1 className={`${playfair.className} text-4xl font-medium text-primary mb-5`}>
         {attraction.title}
       </h1>
-      <Image
-        width={200}
-        height={200}
-        src={attraction.image}
-        alt={attraction.title}
-        className="rounded-2xl w-full max-w-2xl shadow-lg"
-      />
-      <p className="mt-5 text-lg text-center max-w-3xl">
-        {attraction.description}
-      </p>
+      <div className="flex md:flex-row md:gap-28 flex-col gap-10">
+        <Image
+          width={200}
+          height={200}
+          src={attraction.image}
+          alt={attraction.title}
+          className="rounded-2xl w-full max-w-lg shadow-lg flex"
+        />
 
-      <div className="mt-8 w-full max-w-3xl">
-        <h2 className="text-2xl font-semibold mb-3">Top Places:</h2>
-        <ul className="list-disc list-inside text-lg">
-          {attraction.topPlaces.map((place, idx) => (
-            <li key={idx}>{place}</li>
-          ))}
-        </ul>
+        <div className="flex flex-col">
+          <p className="mt-5 text-lg text-justify max-w-3xl ">
+            {attraction.description}
+          </p>
+
+          <div className="mt-8 w-full max-w-3xl">
+            <h2 className="text-2xl font-semibold mb-3">Top Places:</h2>
+            <ul className="list-disc list-inside text-lg">
+              {attraction.topPlaces.map((place, idx) => (
+                <li key={idx}>{place}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
