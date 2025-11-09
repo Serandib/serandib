@@ -7,20 +7,20 @@ import { playfair } from "@/styles/fonts/fonts";
 
 export default function DestinationsPage() {
   const destinations = [
-    { name: "Kandy", image: "/assets/Images/UpgradePage/15.png" },
-    { name: "Nuwara Eliya", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Ella", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Colombo", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Galle", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Yala", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Bentota", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Sigiriya", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Dambulla", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Trincomalee", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Jaffna", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Polonnaruwa", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Anuradhapura", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Mirissa", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Kandy", image: "/assets/Images/Desti/kandycard.jpg" },
+    { name: "Nuwara Eliya", image: "/assets/Images/Desti/nuwaracard.jpg" },
+    { name: "Ella", image: "/assets/Images/Desti/ellacard.jpg" },
+    { name: "Colombo", image: "/assets/Images/Desti/colombocard.jpg" },
+    { name: "Galle", image: "/assets/Images/Desti/galle.jpg" },
+    { name: "Yala", image: "/assets/Images/Desti/yala.jpg" },
+    { name: "Bentota", image: "/assets/Images/Desti/bentotacard.jpg" },
+    { name: "Sigiriya", image: "/assets/Images/Desti/sigiriyacard.jpg" },
+    { name: "Dambulla", image: "/assets/Images/Desti/dambucard.jpg" },
+    { name: "Trincomalee", image: "/assets/Images/Desti/trincocard.jpg" },
+    { name: "Jaffna", image: "/assets/Images/Desti/jaffnacard.jpg" },
+    { name: "Polonnaruwa", image: "/assets/Images/Desti/polocard.jpg" },
+    { name: "Anuradhapura", image: "/assets/Images/Desti/anuracard.jpg" },
+    { name: "Mirissa", image: "/assets/Images/Desti/mirrisacard.jpg" },
   ];
 
   return (
@@ -55,6 +55,8 @@ export default function DestinationsPage() {
                   {place.name}
                 </h2>
               </div> */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent transition-opacity duration-500 group-hover:opacity-90"></div>
+
               <div className="absolute bottom-6 left-6 right-6 text-white z-10">
                 <motion.h3
                   className="text-2xl font-semibold mb-2 group-hover:text-white/90"

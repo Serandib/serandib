@@ -48,7 +48,7 @@ export default async function SubPackagePage({ params }: Props) {
             Most Popular
           </div>
         </div>
-        <div className="flex md:flex-row flex-col gap-5">
+        {/* <div className="flex md:flex-row flex-col gap-5">
           <div className="flex">
             <Image
               width={500}
@@ -90,13 +90,13 @@ export default async function SubPackagePage({ params }: Props) {
               className="rounded  shadow-lg"
             />
           </div>
-        </div>
+        </div> */}
         <div className="flex md:flex-row flex-col justify-between">
           <div className="w-1/2 text-lg font-medium mt-5 flex flex-col">
             <div className="font-medium ">{sub.description}</div>
              <ReadMoreModal
                     title={sub.title}
-                    description={sub.description2}
+                    description2={sub.description2}
                     images={[
                       sub.image,
                       sub.image2,
@@ -108,7 +108,14 @@ export default async function SubPackagePage({ params }: Props) {
                   />
           </div>
           <div className="flex w-1/2 justify-center mt-5 flex-col gap-5 items-center">
-            <Link
+            <Image
+              width={300}
+              height={300}
+              src={sub.image4}
+              alt={sub.title}
+              className="rounded  shadow-lg"
+            />
+            {/* <Link
               href="/ContactUs#faq-section"
               className="bg-primary2 p-3 rounded-xl w-96 text-center font-medium text-white flex flex-row gap-5 justify-center"
             >
@@ -125,7 +132,7 @@ export default async function SubPackagePage({ params }: Props) {
                 className="flex text-2xl text-center text-[#002B11]  "
               />{" "}
               Tripadvisor{" "}
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

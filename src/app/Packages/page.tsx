@@ -3,12 +3,13 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Container from "@/components/common/container";
+import { playfair } from "@/styles/fonts/fonts";
 
 export default function PackagesPage() {
   const packages = [
     {
       name: "Cultural - Heritage Tours",
-      image: "/assets/Images/UpgradePage/15.png",
+      image: "/assets/Images/Desti/kandycard.jpg",
     },
     { name: "Beach Holidays", image: "/assets/Images/UpgradePage/2.jpg" },
     {
@@ -37,7 +38,7 @@ export default function PackagesPage() {
           }}
         >
           <div className="absolute inset-0 "></div>
-          <div className="relative text-4xl md:text-6xl font-extrabold text-left text-white mt-36 ml-10 font-sans3 ">
+          <div className={`${playfair.className} relative text-4xl md:text-6xl font-medium text-left text-white mt-36 ml-10 font-sans3 `}>
             Discover <br /> Our Packages
           </div>
           <div className="flex justify-center mt-72 ">

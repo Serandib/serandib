@@ -19,7 +19,7 @@ const navlinks: INavLinks[] = [
   {
     id: 4,
     name: "Gallery",
-    link: "/gallery",
+    link: "/Gallery",
   },
 
   {

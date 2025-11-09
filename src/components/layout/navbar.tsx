@@ -41,7 +41,12 @@ export default function Navbar() {
               ))}
             </div>
             <div className="flex">
-              <button className="bg-primary rounded-xl p-2 px-3 text-white cursor-pointer hover:bg-secondary2 text-lg">Contact Us</button>
+              <Link href="/ContactUs">
+                <button className="bg-primary rounded-xl p-2 px-3 text-white cursor-pointer hover:bg-secondary2 text-lg">
+                  {" "}
+                  Contact Us
+                </button>
+              </Link>
             </div>
           </div>
 
