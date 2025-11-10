@@ -32,16 +32,16 @@ export default function PackagesPage() {
     <div>
       <Container>
         <div
-          className=" bg- bg-center bg-no-repeat py-24 h-[700] lg:mb-[1500] md:mb-[1500] mb-[3500]"
+          className=" bg- bg-center bg-no-repeat py-24 h-[700] lg:mb-[1500] md:mb-[1500] mb-[3500] "
           style={{
-            backgroundImage: "url('/assets/Images/UpgradePage/test.jpg')",
+            backgroundImage: "url('/assets/Images/Desti/ellacard.jpg')",
           }}
         >
           <div className="absolute inset-0 "></div>
-          <div className={`${playfair.className} relative text-4xl md:text-6xl font-medium text-left text-white mt-36 ml-10 font-sans3 `}>
+          <div className={`${playfair.className} relative text-4xl md:text-7xl font-medium text-right text-white mt-36 mr-20 font-sans3 `}>
             Discover <br /> Our Packages
           </div>
-          <div className="flex justify-center mt-72 ">
+          <div className="flex justify-center mt-60 ">
             <div className="bg-white w-[1200] ">
               <div className="px-6 md:px-16   mt-10 ">
                 {/* Heading */}

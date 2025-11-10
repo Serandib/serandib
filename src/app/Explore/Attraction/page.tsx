@@ -9,42 +9,44 @@ export default function AttractionPage() {
   const attractions = [
     {
       name: "Cultural - Heritage Attractions",
-      image: "/assets/Images/UpgradePage/2.jpg",
+      image: "/assets/Images/Attra/cultcard.jpg",
     },
     {
       name: "Hill Country - Scenic Escapes",
-      image: "/assets/Images/UpgradePage/2.jpg",
+      image: "/assets/Images/Attra/hillcard.jpg",
     },
     {
       name: "Wildlife - National Parks",
-      image: "/assets/Images/UpgradePage/2.jpg",
+      image: "/assets/Images/Attra/wildcard.jpg",
     },
     {
       name: "Beaches - Coastal Escapes",
-      image: "/assets/Images/UpgradePage/2.jpg",
+      image: "/assets/Images/Attra/beachcard.jpg",
     },
     {
       name: "Spiritual - Pilgrimage Sites",
-      image: "/assets/Images/UpgradePage/2.jpg",
+      image: "/assets/Images/Attra/spiricard.jpg",
     },
     {
       name: "Nature - Eco Attractions",
-      image: "/assets/Images/UpgradePage/2.jpg",
+      image: "/assets/Images/Attra/naturcard.jpg",
     },
     {
       name: "Festivals - Cultural Experiences",
-      image: "/assets/Images/UpgradePage/2.jpg",
+      image: "/assets/Images/Attra/festcard.jpg",
     },
     {
       name: "Adventure - Outdoor Activities",
-      image: "/assets/Images/UpgradePage/2.jpg",
+      image: "/assets/Images/Attra/advencard.jpg",
     },
   ];
 
   return (
     <Container>
       <div className="p-8 md:p-16 mt-32">
-        <div className={`${playfair.className} text-4xl md:text-5xl font-medium text-center text-primary mb-12`}>
+        <div
+          className={`${playfair.className} text-4xl md:text-5xl font-medium text-center text-primary mb-12`}
+        >
           Attractions
         </div>
 
@@ -71,6 +73,8 @@ export default function AttractionPage() {
                   {attraction.name}
                 </h2>
               </div> */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent transition-opacity duration-500 group-hover:opacity-90"></div>
+
               <div className="absolute bottom-6 left-6 right-6 text-white z-10">
                 <motion.h3
                   className="text-2xl font-semibold mb-2 group-hover:text-white/90"

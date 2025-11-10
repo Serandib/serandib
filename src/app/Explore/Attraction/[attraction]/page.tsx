@@ -18,7 +18,7 @@ const attractionsData: Record<
       "Dambulla Cave Temple",
       "Galle Dutch Fort",
     ],
-    image: "/assets/Images/UpgradePage/2.jpg",
+    image: "/assets/Images/Attra/cult.jpg",
   },
   "hillcountry-scenicescapes": {
     title: "Hill Country & Scenic",
@@ -31,7 +31,7 @@ const attractionsData: Record<
       "Gregory Lake",
       "Knuckles Mountain Range",
     ],
-    image: "/assets/Images/UpgradePage/2.jpg",
+    image: "/assets/Images/Attra/hill.jpg",
   },
   "wildlife-nationalparks": {
     title: "Wildlife & National",
@@ -44,7 +44,7 @@ const attractionsData: Record<
       "Wilpattu National Park",
       "Sinharaja Rainforest",
     ],
-    image: "/assets/Images/UpgradePage/2.jpg",
+    image: "/assets/Images/Attra/wild.jpg",
   },
   "beaches-coastalescapes": {
     title: "Beaches & Coastal",
@@ -58,7 +58,7 @@ const attractionsData: Record<
       "Pasikudah",
       "Arugam Bay",
     ],
-    image: "/assets/Images/UpgradePage/2.jpg",
+    image: "/assets/Images/Attra/beach.jpg",
   },
   "spiritual-pilgrimagesites": {
     title: "Spiritual &",
@@ -72,7 +72,7 @@ const attractionsData: Record<
       "Seetha Amman Temple – Nuwara Eliya",
       "Nallur Temple - Jaffna",
     ],
-    image: "/assets/Images/UpgradePage/2.jpg",
+    image: "/assets/Images/Attra/spiri.jpg",
   },
   "nature-ecoattractions": {
     title: "Nature & Eco Attracti.„",
@@ -85,7 +85,7 @@ const attractionsData: Record<
       "Gregory Lake",
       "Madu River Wetlands",
     ],
-    image: "/assets/Images/UpgradePage/2.jpg",
+    image: "/assets/Images/Attra/natur.jpg",
   },
   "festivals-culturalexperiences": {
     title: "Festivals & Cultural",
@@ -98,7 +98,7 @@ const attractionsData: Record<
       "Deepavali",
       "Kataragama Festival",
     ],
-    image: "/assets/Images/UpgradePage/2.jpg",
+    image: "/assets/Images/Attra/fest.jpg",
   },
   "adventure-outdooractivities": {
     title: "Adventure & Outdoor",
@@ -111,7 +111,7 @@ const attractionsData: Record<
       "Arugam Bay (Surfing)",
       "Horton Plains (Trekking)",
     ],
-    image: "/assets/Images/UpgradePage/2.jpg",
+    image: "/assets/Images/Attra/adve.jpg",
   },
 };
 
