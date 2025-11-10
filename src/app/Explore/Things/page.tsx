@@ -7,20 +7,22 @@ import { playfair } from "@/styles/fonts/fonts";
 
 export default function ThingsPage() {
   const things = [
-    { name: "Hiking", image: "/assets/Images/UpgradePage/15.png" },
-    { name: "Whale", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Scuba", image: "/assets/Images/UpgradePage/15.png" },
-    { name: "Cycling", image: "/assets/Images/UpgradePage/15.png" },
-    { name: "Tea", image: "/assets/Images/UpgradePage/15.png" },
-    { name: "Garden", image: "/assets/Images/UpgradePage/15.png" },
-    { name: "Bird", image: "/assets/Images/UpgradePage/15.png" },
-    { name: "Temple", image: "/assets/Images/UpgradePage/15.png" },
+    { name: "Hiking", image: "/assets/Images/Things/hikecard.jpg" },
+    { name: "Whale", image: "/assets/Images/Things/whalecard.jpg" },
+    { name: "Scuba", image: "/assets/Images/Things/divecard.jpg" },
+    { name: "Cycling", image: "/assets/Images/Things/cyclecard.jpg" },
+    { name: "Tea", image: "/assets/Images/Things/teacard.jpg" },
+    { name: "Garden", image: "/assets/Images/Things/gardencard.jpg" },
+    { name: "Bird", image: "/assets/Images/Things/birdcard.jpg" },
+    { name: "Temple", image: "/assets/Images/Things/templecard.jpg" },
   ];
 
   return (
     <Container>
       <div className="p-8 md:p-16 mt-32">
-        <div className={`${playfair.className} text-4xl md:text-5xl font-medium text-center text-primary mb-12`}>
+        <div
+          className={`${playfair.className} text-4xl md:text-5xl font-medium text-center text-primary mb-12`}
+        >
           Things To Do
         </div>
 
@@ -46,6 +48,8 @@ export default function ThingsPage() {
                   {item.name}
                 </h2>
               </div> */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent transition-opacity duration-500 group-hover:opacity-90"></div>
+
               <div className="absolute bottom-6 left-6 right-6 text-white z-10">
                 <motion.h3
                   className="text-2xl font-semibold mb-2 group-hover:text-white/90"

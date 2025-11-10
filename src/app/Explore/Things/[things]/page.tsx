@@ -17,8 +17,8 @@ const thingsData: Record<
   }
 > = {
   hiking: {
-    title: "Hiking & Trekking",
-    image: "/assets/Images/UpgradePage/15.png",
+    title: "Hiking and Trekking",
+    image: "/assets/Images/Things/hike.jpg",
     description:
       "Sri Lanka’s diverse landscapes offer an exceptional trekking experience from mist-draped mountain peaks to cloud forests and sacred pilgrimage trails. Whether it’s a sunrise hike up Adam’s Peak surrounded by chanting pilgrims or a scenic trail through the Horton Plains with views over dramatic escarpments, each journey reveals the island’s pristine natural beauty and spiritual essence.",
     bestLocations: [
@@ -42,7 +42,7 @@ const thingsData: Record<
   },
   whale: {
     title: "Whale Watching",
-    image: "/assets/Images/UpgradePage/15.png",
+    image: "/assets/Images/Desti/mirrisacard.jpg",
     description:
       "Sri Lanka is one of the world’s best whale-watching destinations, with nutrient-rich waters that attract magnificent blue whales, sperm whales, and pods of dolphins. Watching these giants breach and glide through the deep blue ocean is a once-in-a-lifetime encounter that brings you closer to nature’s most extraordinary marine life.",
     bestLocations: ["Mirissa", "Trincomalee", "Kalpitiya"],
@@ -59,7 +59,7 @@ const thingsData: Record<
   },
   scuba: {
     title: "Scuba Diving & Snorkeling",
-    image: "/assets/Images/UpgradePage/15.png",
+    image: "/assets/Images/Things/dive.jpg",
     description:
       "Dive beneath the Indian Ocean to uncover shipwrecks, coral gardens, schools of tropical fish, sea turtles, and hidden underwater caves. Whether you're a beginner or certified diver, Sri Lanka’s coastal reefs offer unforgettable marine biodiversity and exceptional visibility during the season.",
     bestLocations: ["Hikkaduwa", "Pigeon Island", "Trincomalee", "Kalpitiya"],
@@ -76,7 +76,7 @@ const thingsData: Record<
   },
   cycling: {
     title: "Cycling Experiences",
-    image: "/assets/Images/UpgradePage/15.png",
+    image: "/assets/Images/Things/cycle.jpg",
     description:
       "Cycling through Sri Lanka’s countryside offers an authentic window into local life. Ride past lush paddy fields, ancient ruins, lake reservoirs, and smiling villagers. Whether cycling around Sigiriya or through Galle’s colonial lanes, it’s a tranquil and immersive way to explore the island.",
     bestLocations: [
@@ -99,7 +99,7 @@ const thingsData: Record<
   },
   tea: {
     title: "Tea Estate Walks",
-    image: "/assets/Images/UpgradePage/15.png",
+    image: "/assets/Images/Things/tea.jpg",
     description:
       "Stroll through emerald-green tea plantations set against stunning mountainous backdrops. Witness tea pluckers at work, learn centuries-old tea processing techniques inside colonial-era factories, and enjoy a tasting session of pure Ceylon tea straight from its origin.",
     bestLocations: ["Nuwara Eliya", "Ella", "Hatton", "Haputale"],
@@ -116,7 +116,7 @@ const thingsData: Record<
   },
   garden: {
     title: "Garden Rambles",
-    image: "/assets/Images/UpgradePage/15.png",
+    image: "/assets/Images/Things/garden.jpg",
     description:
       "Sri Lanka’s botanical gardens offer a peaceful escape into manicured landscapes brimming with exotic flora, orchids, bamboo forests, and spice groves. These gardens are perfect for leisurely strolls, photography, and understanding the island’s botanical heritage.",
     bestLocations: ["Peradeniya", "Hakgala", "Henarathgoda"],
@@ -133,7 +133,7 @@ const thingsData: Record<
   },
   bird: {
     title: "Bird Watching",
-    image: "/assets/Images/UpgradePage/15.png",
+    image: "/assets/Images/Things/bird.jpg",
     description:
       "Sri Lanka is a bird-watcher’s paradise with over 400 species, including rare endemics. Walk through tropical rainforests, wetlands, and mountain regions to spot colorful kingfishers, hornbills, and migratory species arriving from Siberia and Europe.",
     bestLocations: [
@@ -155,7 +155,7 @@ const thingsData: Record<
   },
   temple: {
     title: "Temple Tours",
-    image: "/assets/Images/UpgradePage/15.png",
+    image: "/assets/Images/Things/temple.jpg",
     description:
       "Temple tours allow you to connect deeply with Sri Lanka’s spiritual and cultural heritage. From ancient cave temples to sacred relic shrines, these sites reveal centuries of Buddhist devotion, intricate art, and timeless architecture.",
     bestLocations: [

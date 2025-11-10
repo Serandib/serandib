@@ -550,12 +550,36 @@ Visit Kelaniya Temple, associated with Vibhishana and the final chapter of the R
         image5: "/assets/Images/UpgradePage/3.jpg",
         bannerImage: "/assets/Images/UpgradePage/15.png",
       },
-      meditationretreat: {
-        title: "Meditation Retreat",
+      ramayanaspiritual: {
+        title: "7 Days / 6 Nights - Ramayana Spiritual Journey – A Pilgrimage of Faith, Legend & Divine Energy",
         description:
-          "Short retreats focusing on meditation, mindfulness and participation in local monastic practices.",
+          "Embark on a transformative journey through Sri Lanka, where ancient legends of the Ramayana come alive amidst sacred temples, mist-clad mountains, and spiritual sanctuaries. This premium pilgrimage blends mythology with breathtaking landscapes and cultural immersion. Follow in the footsteps of Lord Rama, Sita, and Hanuman as you explore holy sites, participate in rituals, and witness the living heritage of this timeless epic. Every moment is thoughtfully curated to turn your inner devotion into cherished memories just as our promise says, “From Dreams to Memories.”",
         description2:
-          "Provides daily schedules, dietary considerations, and an outline of meditation techniques used during the retreat. Includes options for beginners.",
+           `
+
+Day 01 – Airport | Chilaw | Kandy
+Arrive in Sri Lanka and travel to Munneswaram and Manavari Temples, significant sites where Lord Rama prayed to Lord Shiva. Continue your journey into the sacred hill capital of Kandy.
+
+Day 02 – Kandy | Ramboda | Nuwara Eliya
+Visit the Hanuman Temple in Ramboda and explore tea country landscapes as you proceed to Nuwara Eliya, also believed to be part of Sita’s legacy.
+
+Day 03 – Nuwara Eliya | Kataragama
+Discover the holy Sita Amman Temple and Ashok Vatika before traveling south to Kataragama, a revered pilgrimage site shared by Buddhists, Hindus, and indigenous devotees.
+
+Day 04 – Kataragama | Unawatuna | Bentota
+Visit the ancient Kataragama Temple and then journey along the southern coast through Unawatuna, believed to be connected to the Ramayana, before reaching the beachside haven of Bentota.
+
+Day 05 – Bentota | Spiritual Leisure
+Relax by the ocean or enjoy optional visits to temples and turtle conservation sites, embracing the serenity of Sri Lanka’s southern coast.
+
+Day 06 – Bentota | Colombo
+Travel to Colombo, witnessing a blend of spirituality and modern culture. Enjoy sightseeing or a peaceful evening at leisure.
+
+Day 07 – Colombo | Kelaniya | Airport
+Visit the Kelaniya Temple believed to be blessed by Lord Buddha and associated with King Vibhishana before concluding your journey and departing with divine blessings and unforgettable memories.
+
+
+`,
         image: "/assets/Images/UpgradePage/2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
@@ -563,20 +587,89 @@ Visit Kelaniya Temple, associated with Vibhishana and the final chapter of the R
         image5: "/assets/Images/UpgradePage/3.jpg",
         bannerImage: "/assets/Images/UpgradePage/10.png",
       },
+      sacredramayana: {
+        title: "10 Days / 9 Nights - Sacred Ramayana Trail of Sri Lanka",
+        description:
+          "Follow the divine footsteps of Lord Rama, Sita, and Hanuman across Sri Lanka on this immersive spiritual journey. From ancient temples believed to be blessed by deities, to the misty mountains where Sita was held captive, every destination in this tour is deeply rooted in the epic Ramayana. This transformative expedition blends mythology, devotion, nature, and culture offering a once-in-a-lifetime opportunity to reconnect with faith while witnessing the beauty of Sri Lanka’s sacred landscapes. From dreams to memories, this is more than a tour—it's a spiritual awakening.",
+        description2:
+           `
+
+Day 01: Airport | Chilaw | Dambulla
+Arrive in Sri Lanka and visit Munneswaram and Manavari Temples, linked to Lord Rama’s prayers to Lord Shiva, before proceeding to Dambulla for rest.
+
+Day 02: Dambulla | Sigiriya | Trincomalee
+Visit Sigiriya Rock Fortress before journeying to Trincomalee, home to the legendary Koneswaram Temple, dedicated to Lord Shiva and revered in the Ramayana.
+
+Day 03: Trincomalee | Spiritual Exploration
+Spend the day exploring Koneswaram and surrounding holy sites, enjoying the sacred atmosphere and breathtaking ocean views.
+
+Day 04: Trincomalee | Dambulla | Kandy
+Travel through the cultural heartland to reach Kandy, the hill capital and a deeply spiritual city with ancient legends.
+
+Day 05: Kandy | Ramboda | Nuwara Eliya
+Visit Hanuman Temple in Ramboda, believed to be the site where Lord Hanuman first set foot in Lanka, before reaching Nuwara Eliya’s sacred highlands.
+
+Day 06: Nuwara Eliya | Seetha Amman Temple
+Explore Seetha Amman Temple and Ashok Vatika, where Sita is believed to have been kept captive by Ravana.
+
+Day 07: Nuwara Eliya | Bentota
+Descend from the hills to the coast, arriving in Bentota for relaxation by the Indian Ocean.
+
+Day 08: Bentota | Unawatuna | Galle | Bentota
+Visit Rumassala in Unawatuna, believed to be part of the Himalayan Mountains carried by Hanuman, followed by exploration of historic Galle Fort.
+
+Day 09: Bentota | Colombo
+Travel to Colombo for a blend of modern culture and spiritual reflection.
+
+Day 10: Colombo | Kelaniya Temple | Airport Departure
+Visit the sacred Kelaniya Temple, associated with King Vibhishana, before departing with blessings and cherished memories of the Ramayana legacy.
+
+
+`,
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/10.png",
+      },
+
+
     },
   },
   adventuretours: {
-    title: "Adventure & Trekking",
+    title: "Adventure Tours",
     description:
-      "Hike scenic trails, discover waterfalls and remote villages, and experience the island’s dramatic landscapes on foot.",
+      "",
     image: "/assets/Images/UpgradePage/2.jpg",
     children: {
-      waterfallhike: {
-        title: "Waterfall Hike",
+      thrill: {
+        title: "6 Days / 5 Nights - Thrill & Explore: Sri Lanka Adventure Tour",
         description:
-          "Day hikes to spectacular waterfalls, including picnic stops and swimming where safe.",
+          "Unleash your spirit of adventure with this exhilarating journey through Sri Lanka’s most thrilling landscapes. From hiking ancient rock fortresses to conquering sacred mountains, rafting through wild rapids, encountering untamed wildlife, and watching majestic whales in the Indian Ocean—this tour is designed for explorers who crave adrenaline, nature, and unforgettable experiences. Every day brings a new adventure, transforming your journey from an active escape into a story of achievement, excitement, and awe-inspiring natural beauty.",
         description2:
-          "Includes recommended footwear, difficulty grading, water safety tips and seasonal flow information to help choose the best time to visit.",
+           `
+
+Day 01: Arrival & Sigiriya Hike
+Begin your adventure by climbing the iconic Sigiriya Rock Fortress, an ancient citadel offering breathtaking panoramic views.
+
+Day 02: Adam’s Peak Pilgrimage Hike
+Embark on a night hike to Adam’s Peak, reaching the summit at sunrise for one of the most spiritual and awe-inspiring views in Sri Lanka.
+
+Day 03: Kitulgala | White Water Rafting
+Feel the adrenaline rush as you raft through the rapid waters of Kitulgala, surrounded by lush rainforest and cascading rivers.
+
+Day 04: Yala National Park Safari
+Head to Yala for an exciting wildlife safari, home to leopards, elephants, and exotic birds in their natural habitat.
+
+Day 05: Mirissa | Whale Watching Expedition
+Experience the thrill of spotting blue whales and dolphins as you set sail along the southern coast.
+
+Day 06: Colombo City Tour & Departure
+Enjoy a sightseeing tour of Colombo’s landmarks and shopping districts before departure, taking home a lifetime of unforgettable adventures.
+
+
+`,
         image: "/assets/Images/UpgradePage/2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
@@ -584,12 +677,44 @@ Visit Kelaniya Temple, associated with Vibhishana and the final chapter of the R
         image5: "/assets/Images/UpgradePage/3.jpg",
         bannerImage: "/assets/Images/UpgradePage/15.png",
       },
-      mountaintrail: {
-        title: "Mountain Trail",
+      srilankaadventure: {
+        title: "10 Days / 9 Nights - Sri Lanka Adventure & Heritage Expedition",
         description:
-          "Multi-day treks across mountain ridges with local guides and overnight camping.",
+          "Experience the perfect fusion of adrenaline, culture, and natural beauty on this unforgettable adventure through Sri Lanka. From ancient cave temples and legendary rock fortresses to stunning train journeys, mountain hikes, and thrilling safaris—this tour is crafted for travelers who crave exploration and authenticity. Every day brings a new adventure, guiding you from cultural wonders to breathtaking landscapes and unforgettable wildlife encounters—turning your adventure dreams into cherished memories.",
         description2:
-          "Details include trek length, elevation changes, pack lists, campsite facilities and altitude considerations for longer treks.",
+           `
+
+Day 01: Arrival & Negombo City Exploration
+Arrive in Sri Lanka and explore the scenic coastal town of Negombo, known for its beaches, Dutch canals, and vibrant atmosphere.
+
+Day 02: Dambulla Cave Temple Adventure
+Discover the magnificent Dambulla Cave Temple, a UNESCO World Heritage site filled with ancient murals and Buddha statues.
+
+Day 03: Sigiriya & Polonnaruwa Exploration
+Climb the iconic Sigiriya Rock Fortress in the morning and explore the ancient ruins of Polonnaruwa in the afternoon.
+
+Day 04: Kandy | Cultural Heritage
+Travel to Kandy to experience its sacred temples, traditional arts, and scenic lake surroundings.
+
+Day 05: Scenic Train Ride to Ella
+Enjoy one of the world’s most beautiful train journeys through misty mountains and lush tea plantations.
+
+Day 06: Ella Adventure | Little Adam’s Peak & Nine Arch Bridge
+Hike Little Adam’s Peak for breathtaking views and visit the iconic Nine Arch Bridge, a marvel of colonial engineering.
+
+Day 07: Yala National Park Safari
+Embark on an unforgettable safari in Yala, home to the highest density of leopards in the world.
+
+Day 08: Udawalawe | Elephant-Focused Safari
+Experience a dedicated elephant safari in Udawalawe National Park, famous for its large herds and close wildlife encounters.
+
+Day 09: Galle Fort & Coastal Charm
+Explore the UNESCO-listed Galle Fort, a blend of colonial heritage, boutique streets, and stunning coastal views.
+
+Day 10: Departure
+Transfer to the airport with memories of adventure, culture, and the natural wonders of Sri Lanka.
+
+`,
         image: "/assets/Images/UpgradePage/2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
@@ -597,20 +722,112 @@ Visit Kelaniya Temple, associated with Vibhishana and the final chapter of the R
         image5: "/assets/Images/UpgradePage/3.jpg",
         bannerImage: "/assets/Images/UpgradePage/15.png",
       },
+
+      cultural: {
+        title: "14 Days / 13 Nights Sri Lanka Adventure & Cultural Immersion Tour",
+        description:
+          "This 14-day immersive adventure tour is designed for explorers who crave authentic experiences beyond mainstream tourism. Journey through Sri Lanka's hidden natural landscapes, ancient kingdoms, indigenous villages, mountain wilderness, and untouched rural heartlands. You will camp under a blanket of stars, cycle through lush paddy fields, and cook over open fires with villagers, experience indigenous Ayurveda rituals, fish in freshwater tanks, observe exotic bird species, and trek through UNESCO-protected forests. This tour offers not just travel but a transformational experience of culture, nature, spirituality, and adventure. Every day brings you closer to the soul of Sri Lanka, creating powerful memories that last a lifetime.",
+        description2:
+           `
+
+Day 1: Arrival in Negombo
+Arrive in Negombo and unwind in a charming coastal retreat. In the evening, enjoy a gentle cycling experience through lush coconut groves and fishing hamlets, followed by a luxury welcome dinner featuring fresh lagoon seafood.
+
+Day 2: Negombo → Wilpattu National Park
+Travel to Wilpattu for an exclusive wildlife escape. Enjoy a private safari and observe majestic leopards and rare birds. Your night is set in a luxury wilderness camp with gourmet open-flame dining under the stars.
+
+Day 3: Wilpattu Wildlife Immersion
+Experience an early morning safari followed by a freshwater fishing activity in a serene forest lake. Spend the evening relaxing in your luxury campsite, surrounded by nature’s stillness, with a private bonfire dining experience.
+
+Day 4: Wilpattu → Anuradhapura Rural Retreat
+Travel to the ancient city of Anuradhapura and settle into an elegant eco-retreat. Enjoy a scenic cycling journey through paddy fields and ancient reservoirs, ending the day with a village-style open fire cooking session.
+
+Day 5: Heritage and Village Lifestyle Experience
+Begin your day exploring UNESCO heritage sites by bicycle. In the afternoon, engage in a hands-on rural farming demonstration and enjoy peaceful bird watching by the lakeside, surrounded by timeless landscapes.
+
+Day 6: Anuradhapura → Sigiriya Nature Escape
+Depart to Sigiriya via the ancient forest monastery of Ritigala, known for its healing Ayurveda traditions. Check into a luxury nature resort and unwind amidst lush greenery and natural water streams.
+
+Day 7: Sigiriya Rock & Ayurveda Rituals
+Climb the Sigiriya Rock Fortress at sunrise for breathtaking panoramic views. In the afternoon, indulge in a signature indigenous Ayurveda treatment, followed by a village culinary experience using traditional open-fire methods.
+
+Day 8: Sigiriya → Knuckles Mountain Range
+Embark on a scenic drive into the Knuckles Wilderness. Begin an exclusive trekking experience through cloud forests and waterfalls. Spend the night in a luxury mountain campsite with private chef service.
+
+Day 9: Knuckles Wilderness Adventure
+A full day of nature immersion with mountain trekking, freshwater fishing, and bird watching. Enjoy gourmet fire-cooked meals and peaceful forest surroundings in absolute serenity.
+
+Day 10: Knuckles → Kandy
+Travel to the hill capital of Kandy. Visit the Temple of the Tooth and spend the evening at leisure in a luxury boutique hotel overlooking misty hills.
+
+Day 11: Kandy → Indigenous Wellness Village
+Journey to Mahiyanganaya to meet Sri Lanka’s indigenous Vedda community. Immerse in ancient healing practices and cultural rituals, combined with nature walks and forest Ayurveda sessions.
+
+Day 12: Mahiyanganaya → Ella Highlands
+Transfer to Ella, a breathtaking mountain escape. Enjoy scenic stops at tea plantations and waterfalls. Evening cycling through tea trails with panoramic views.
+
+Day 13: Ella → Yala Wilderness
+Head to Yala for your final adventure. Experience rural farming demonstration and traditional open fire dinner in a luxury safari camp surrounded by wilderness.
+
+Day 14: Departure
+Optional morning safari or leisure time before departure. Transfer to Colombo or airport with warm farewells and lasting memories of your Sri Lankan adventure.
+
+
+`,
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+
+
     },
   },
   dreamweddings: {
-    title: "Adventure & Trekking",
+    title: "The most beautiful day of your life should be celebrated in the most memorable way",
     description:
-      "Hike scenic trails, discover waterfalls and remote villages, and experience the island’s dramatic landscapes on foot.",
+      `Whether it be a small and intimate event or a large gathering of all those friends and family with whom you want to share your special day, celebrating a wedding in Sri Lanka can be as quiet and simple as you wish or as elaborate as you desire.
+      `,
     image: "/assets/Images/UpgradePage/2.jpg",
     children: {
-      waterfallhike: {
-        title: "Waterfall Hike",
+      silverwedding: {
+        title: "Silver Wedding Package ",
         description:
           "Day hikes to spectacular waterfalls, including picnic stops and swimming where safe.",
         description2:
-          "Includes recommended footwear, difficulty grading, water safety tips and seasonal flow information to help choose the best time to visit.",
+          `
+
+
+
+Fee for Registrar
+
+Onsite wedding coordinator
+
+Body massage for couple on the day prior to the wedding
+
+Marriage license and certificate
+
+Bottle of sparkling wine for the couple during the ceremony
+
+Two-tiered wedding cake
+
+Bouquet and button-hole
+
+Witness if required
+
+Decorated wedding location
+
+Traditional oil lamp decorated with fresh flowers
+
+Traditional religious blessings sung by a group of Sri Lankan girls
+
+Souvenir gift from the hotel 24 photographs with album (8 x 13 inches with 72 negatives)
+
+
+
+`,
         image: "/assets/Images/UpgradePage/2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
@@ -619,11 +836,43 @@ Visit Kelaniya Temple, associated with Vibhishana and the final chapter of the R
         bannerImage: "/assets/Images/UpgradePage/15.png",
       },
       mountaintrail: {
-        title: "Mountain Trail",
+        title: "Paradise Wedding Package ",
         description:
           "Multi-day treks across mountain ridges with local guides and overnight camping.",
         description2:
-          "Details include trek length, elevation changes, pack lists, campsite facilities and altitude considerations for longer treks.",
+          `
+
+Fee for Registrar
+
+Onsite wedding coordinator
+
+Deep cleansing facial for the bride on the day prior to the wedding
+
+Aromatic body massages for the bride and groom in the privacy of the Penthouse Suite on the sundeck or at the Spa
+Marriage license and certificate
+Special dinner in the room served from the signature restaurant, with a complimentary bottle of Champagne
+
+Two-tiered wedding cake
+
+Bouquet and button-hole
+
+Witness if required
+
+Decorated wedding location
+
+Traditional oil lamp decorated with fresh flowers
+
+CD of the wedding
+
+Souvenir gift from the hotel
+
+Traditional religious blessings sung by a group of Sri Lankan girls
+
+
+
+
+
+`,
         image: "/assets/Images/UpgradePage/2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
@@ -631,20 +880,92 @@ Visit Kelaniya Temple, associated with Vibhishana and the final chapter of the R
         image5: "/assets/Images/UpgradePage/3.jpg",
         bannerImage: "/assets/Images/UpgradePage/15.png",
       },
+
+ goldwedding: {
+        title: "Gold Wedding Package  ",
+        description:
+          "Multi-day treks across mountain ridges with local guides and overnight camping.",
+        description2:
+          `
+
+Pre-wedding spa / Ayurveda package for the couple
+
+Marriage license and certificate Fee for registrar
+
+Witness if required
+
+Onsite wedding coordinator
+
+Bouquet and button-hole
+
+Kandyan Dancers and Drummers
+
+Traditional religious blessings sung by a group of Sri Lankan girls
+
+Traditional oil lamp decorated with fresh flowers
+
+15 minute Elephant ride for the couple
+
+5 course candle-lit dinner on wedding night
+
+Free canapés and soft drinks for 10 guests during the ceremony
+
+Bottle of sparkling wine for the couple during the ceremony Souvenir gift from the hotel
+
+24 photographs with album (8 x 13 inches with 72 negatives)
+
+
+
+
+
+
+`,
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+
     },
   },
   romanticholidays: {
-    title: "Adventure & Trekking",
+    title: "Romantic Holidays",
     description:
       "Hike scenic trails, discover waterfalls and remote villages, and experience the island’s dramatic landscapes on foot.",
     image: "/assets/Images/UpgradePage/2.jpg",
     children: {
-      waterfallhike: {
-        title: "Waterfall Hike",
+      romanticescape: {
+        title: "7 Days / 6 Nights - Romantic Escape in Sri Lanka",
         description:
-          "Day hikes to spectacular waterfalls, including picnic stops and swimming where safe.",
+          "Experience a romantic journey designed exclusively for couples seeking intimacy, relaxation, and unforgettable moments. From sunset cruises and candlelit dinners to peaceful beachside retreats, this tour blends luxury with authentic Sri Lankan charm. Begin your journey in the vibrant city of Colombo, where modern elegance meets colonial beauty, before escaping to the tranquil shores of Bentota for days filled with rest, rejuvenation, and romantic sunsets. Every experience is crafted to allow you to reconnect, unwind, and create memories that last a lifetime.",
         description2:
-          "Includes recommended footwear, difficulty grading, water safety tips and seasonal flow information to help choose the best time to visit.",
+          `
+
+Day 01: Arrival in Colombo | Romantic Welcome
+Arrive in Sri Lanka and transfer to your hotel in Colombo. Enjoy a relaxing evening as you settle in and begin your romantic getaway.
+
+Day 02: Colombo City Tour & Street Food Excursion
+Explore Colombo’s colonial architecture, oceanfront promenades, stylish boutiques, and vibrant street food scene for a taste of local flavors.
+
+Day 03: Sunset Cruise in Colombo
+Embark on a romantic sunset cruise along the Indian Ocean – complete with breathtaking views and a tranquil evening ambiance.
+
+Day 04: Travel to Bentota & Beach Leisure
+Depart for Bentota, Sri Lanka’s romantic beach haven. Spend the day at leisure by the ocean, enjoying golden sands and gentle waves.
+
+Day 05: Madu River Sunset Boat Ride & Leisure
+Sail through mangrove forests on a serene sunset cruise along the Madu River, followed by a peaceful evening with your partner.
+
+Day 06: Full Day of Beach Leisure
+Indulge in a day entirely dedicated to relaxation—sunbathe, swim, book a couples’ spa treatment, or simply watch the sunset with a private dinner setup.
+
+Day 07: Departure
+Bid farewell to Sri Lanka as you transfer to the airport, taking home cherished memories of your romantic escape.
+
+
+`,
         image: "/assets/Images/UpgradePage/2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
@@ -652,12 +973,52 @@ Visit Kelaniya Temple, associated with Vibhishana and the final chapter of the R
         image5: "/assets/Images/UpgradePage/3.jpg",
         bannerImage: "/assets/Images/UpgradePage/15.png",
       },
-      mountaintrail: {
-        title: "Mountain Trail",
+      romanticdiscovery: {
+        title: "12 Days / 11 Nights - Romantic Discovery of Sri Lanka",
         description:
-          "Multi-day treks across mountain ridges with local guides and overnight camping.",
+          "Embark on a soul-stirring romantic journey through Sri Lanka’s most enchanting landscapes. From wildlife encounters and misty mountains to ancient kingdoms and serene beaches, this tour is carefully crafted to bring couples closer together through once-in-a-lifetime experiences. Soar above cultural ruins on a hot air balloon, share quiet moments on scenic train journeys, and immerse yourselves in the beauty of nature, history, and luxury hospitality all while creating memories that last forever.",
         description2:
-          "Details include trek length, elevation changes, pack lists, campsite facilities and altitude considerations for longer treks.",
+          `
+
+Day 01: Arrival in Negombo & Relaxation
+Arrive and unwind at a romantic beachside hotel in Negombo. Enjoy a peaceful evening, sunset by the ocean, and a candlelit welcome dinner.
+
+Day 02: Minneriya National Park & Habarana
+Head to Habarana for an exciting safari at Minneriya National Park, where majestic herds of wild elephants roam freely a perfect moment to share amidst nature.
+
+Day 03: Hiriwaduna Village Trek & Sigiriya
+Experience authentic village life on a serene trek through Hiriwaduna, followed by an exploration of the iconic Sigiriya Rock Fortress, a symbol of love and ancient royalty.
+
+Day 04: Hot Air Balloon Ride & Leisure in Habarana
+Embark on a breathtaking sunrise hot air balloon ride over lush forests and lakes, creating an unforgettable romantic experience. Relax at your resort for the rest of the day.
+
+Day 05: Dambulla Cave Temple & Kandy Cultural Show
+Visit the magnificent Golden Cave Temple of Dambulla and continue to Kandy to experience a traditional cultural dance performance beneath the stars.
+
+Day 06: Temple of the Tooth Relic & Ambuluwawa Tower
+Begin your day with a visit to the sacred Temple of the Tooth Relic. Later, enjoy panoramic 360-degree views from the iconic Ambuluwawa Tower perfect for shared quiet moments.
+
+Day 07: Nuwara Eliya & Tea Factory Visit
+Travel into the misty highlands of Nuwara Eliya, stroll through tea plantations, and enjoy a romantic tour of a tea factory while sipping freshly brewed Ceylon tea.
+
+Day 08: Scenic Train Ride to Ella & Leisure
+Board the world-renowned scenic train to Ella a magical journey through cloud-kissed mountains and waterfalls. Spend a peaceful evening in this charming hill town.
+
+Day 09: Explore Ella’s Highlights
+Visit the famous Nine Arches Bridge, hike Little Adam’s Peak, and enjoy stunning mountain views—ideal for capturing romantic photographs together.
+
+Day 10: Galle Dutch Fort & Arrival in Colombo
+Travel south and explore the UNESCO-listed Galle Fort, a blend of romance and history with cobblestone streets, ocean views, and boutique cafes. Continue to Colombo.
+
+Day 11: Colombo Shopping & Leisure
+Enjoy a relaxed day exploring Colombo’s upscale shopping arcades, seaside promenades, and luxury dining experiences.
+
+Day 12: Departure
+Transfer to the airport with hearts full of love and a lifetime of unforgettable memories.
+
+
+
+`,
         image: "/assets/Images/UpgradePage/2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
@@ -665,20 +1026,124 @@ Visit Kelaniya Temple, associated with Vibhishana and the final chapter of the R
         image5: "/assets/Images/UpgradePage/3.jpg",
         bannerImage: "/assets/Images/UpgradePage/15.png",
       },
+
+      enchantingromantic: {
+        title: "17 Days / 16 nights - Enchanting Romantic Escape in Sri Lanka",
+        description:
+          "Celebrate your love story amidst Sri Lanka’s breathtaking landscapes, timeless heritage, and luxurious hideaways. This exclusive 17-day romantic journey is thoughtfully curated to allow couples to reconnect through shared experiences from hot air balloon rides over ancient kingdoms to candlelit dinners under the stars, from serene beaches to misty mountains. Each day unfolds like a chapter in your own fairytale.",
+        description2:
+          `
+
+Day 1: Arrival in Negombo
+Begin your journey with a warm Sri Lankan welcome. Relax at your beachfront resort in Negombo, enjoy ocean views and unwind from your travels with an optional couple’s spa.
+
+Day 2: Minneriya National Park Safari & Transfer to Habarana
+Head into the wild for an exciting safari in Minneriya National Park, home to the famous Elephant Gathering. Witness herds in their natural habitat—an awe-inspiring experience to share together.
+
+Day 3: Sigiriya Rock Fortress & Ayurvedic Spa
+Climb the legendary Sigiriya Rock Fortress, an ancient palace in the clouds built for a king’s love story. In the evening, indulge in a rejuvenating couple’s Ayurvedic spa therapy surrounded by nature.
+
+Day 4: Hot Air Balloon Ride & Romantic Bicycle Tour
+Drift through the sky at sunrise on a hot air balloon ride peaceful, intimate, and breathtaking. Later, enjoy a scenic bicycle tour through paddy fields, lakes, and rural villages.
+
+Day 5: Hiriwaduna Village Trek & Leisure
+Experience rural charm with a boat ride and bullock cart journey through Hiriwaduna village. Afternoon at leisure to relax by the pool or schedule a private romantic dinner under lanterns.
+
+Day 6: Dambulla Cave Temple & Temple of the Tooth Relic
+Explore the UNESCO listed Dambulla Cave Temple adorned with ancient Buddhist murals, followed by a journey to Kandy to witness evening rituals at the sacred Temple of the Tooth.
+
+Day 7: Ambuluwawa Tower & Royal Botanical Garden
+Climb the Ambuluwawa Tower for panoramic 360° views an enchanting moment above the clouds. Later, stroll through the Peradeniya Royal Botanical Gardens hand-in-hand amongst orchids and towering palms.
+
+Day 8: Ramboda Waterfalls & Leisure in Nuwara Eliya
+Travel into the tea country and pause at the stunning Ramboda Falls. Arrive in Nuwara Eliya—the "Little England" of Sri Lanka for a cool climate, misty hills, and elegant colonial charm.
+
+Day 9: Strawberry Farm Visit & Bicycle Ride around Gregory Lake
+Spend the morning at a strawberry farm picking fresh fruit together. In the afternoon, enjoy a leisurely bicycle ride around Gregory Lake with breathtaking mountain views.
+
+Day 10: Romantic Scenic Train Ride to Ella & Leisure
+Embark on the world’s most romantic train ride through emerald tea plantations and cloud forests. Arrive in Ella and relax in a hillside resort overlooking the mountains.
+
+Day 11: Yala Evening Safari & Private Candlelight Dinner
+Head to Yala for an exhilarating evening safari in search of leopards, elephants, and exotic wildlife. End your day with a private candlelit dinner under the open sky.
+
+Day 12: Beach Leisure in Mirissa
+Arrive in Mirissa, a coastal paradise. Spend the day basking on golden sands and enjoying ocean views from your luxurious beach resort.
+
+Day 13: Mirissa Beach Bliss
+A full day of serenity. Optional activities include whale watching, snorkeling, or a romantic photoshoot on the beach during sunset.
+
+Day 14: Galle Dutch Fort & Kosgoda Turtle Hatchery
+Wander through the cobbled streets of Galle Fort a UNESCO World Heritage Site rich with colonial charm. Later, visit the sea turtle hatchery in Kosgoda and release baby turtles into the ocean at sunset.
+
+Day 15: Sunset River Safari in Bentota
+Cruise along the Madu River at sunset, surrounded by mangroves, islands, and exotic birdlife. Sip fresh king coconut as nature serenades you into peace.
+
+Day 16: Colombo City Tour & Street Food Exploration
+Experience modern Sri Lanka with a guided city tour of Colombo’s colonial architecture, temples, and upscale shopping. In the evening, dive into a flavorful street food adventure.
+
+Day 17: Departure
+Say goodbye to paradise with hearts full of memories that will last a lifetime.
+
+
+
+`,
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+
+
     },
   },
   northernsrilanka: {
-    title: "Adventure & Trekking",
+    title: "Northern Sri Lanka",
     description:
       "Hike scenic trails, discover waterfalls and remote villages, and experience the island’s dramatic landscapes on foot.",
     image: "/assets/Images/UpgradePage/2.jpg",
     children: {
-      waterfallhike: {
-        title: "Waterfall Hike",
+      srilankanorth: {
+        title: "10 Days / 9 Nights Sri Lanka North Coast Discovery",
         description:
-          "Day hikes to spectacular waterfalls, including picnic stops and swimming where safe.",
+          "Experience the best of Sri Lanka’s cultural heritage, misty hill country, and serene East Coast beaches on this 10-day immersive journey. From sacred temples and lush tea plantations to golden beaches in Arugam Bay and Pasikudah, this curated itinerary blends relaxation with adventure. Whether you're exploring ancient kingdoms, riding one of the world’s most scenic trains, or unwinding by turquoise shores, this tour promises the perfect balance of discovery and tranquility.",
         description2:
-          "Includes recommended footwear, difficulty grading, water safety tips and seasonal flow information to help choose the best time to visit.",
+                    `
+
+Day 01: Arrival | Pinnawala | Kandy
+Begin your journey with a warm welcome at the airport, followed by a visit to the world-renowned Pinnawala Elephant Orphanage. Continue through lush greenery to a spice garden before arriving in Kandy, the cultural capital of Sri Lanka. Enjoy a peaceful evening in this historic hill city.
+
+Day 02: Kandy City & Cultural Experiences
+Start your day at the sacred Temple of the Tooth Relic, a UNESCO World Heritage site. Continue exploring key landmarks such as Kandy Lake, Bahirawakanda Buddha Statue, the scenic View Point, and the Peradeniya Botanical Garden. Wrap up your day with a traditional Kandyan cultural dance performance.
+
+Day 03: Kandy | Nuwara Eliya | Scenic Train to Ella
+Travel through misty mountains toward Nuwara Eliya, stopping at a tea plantation, factory, and cascading waterfalls. Explore colonial landmarks like the famous post office. Later, board the iconic train from Nanu Oya to Ella for one of the world's most breathtaking rail journeys.
+
+Day 04: Ella Highlights | Transfer to Arugam Bay
+Begin early with a sunrise hike to Little Adam’s Peak and visit the Nine Arch Bridge. Afterward, head toward the tropical East Coast with a stop at Ravana Falls. Arrive in Arugam Bay, Sri Lanka’s surfing paradise, and unwind at your beachfront resort.
+
+Day 05: Arugam Bay Beach Leisure
+Relax and rejuvenate by the ocean. Choose from surfing, swimming, snorkeling, or simply enjoying the laid-back coastal vibe. This is your day of sun, sea, and serenity.
+
+Day 06: Arugam Bay | Pasikudah
+Journey along the picturesque coastline to Pasikudah, one of the world’s calmest and shallowest bays. Spend the evening soaking in the sunset from your luxury beachfront hotel.
+
+Day 07: Leisure in Pasikudah
+Spend the day indulging in water sports, snorkeling, paddle boarding, or simply unwinding on powder-soft sands. Pasikudah is the ideal location for relaxation in crystal-clear waters.
+
+Day 08: Pasikudah | Polonnaruwa | Sigiriya
+Travel from the coast to the ancient city of Polonnaruwa, where you will explore majestic ruins and ancient palaces. Continue to Sigiriya, your gateway to Sri Lanka’s cultural triangle.
+
+Day 09: Sigiriya | Hiriwadunna Village | Pidurangala
+Climb the legendary Sigiriya Rock Fortress in the morning. Experience authentic village life on a Hiriwadunna trek with a traditional boat ride. End your day with a sunset climb at Pidurangala Rock, offering stunning views of Sigiriya.
+
+Day 10: Departure
+Your unforgettable journey comes to an end. Transfer to the airport with memories of misty mountains, ancient wonders, and the turquoise waters of Sri Lanka’s east coast.
+
+
+`,
         image: "/assets/Images/UpgradePage/2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
@@ -686,12 +1151,112 @@ Visit Kelaniya Temple, associated with Vibhishana and the final chapter of the R
         image5: "/assets/Images/UpgradePage/3.jpg",
         bannerImage: "/assets/Images/UpgradePage/15.png",
       },
-      mountaintrail: {
-        title: "Mountain Trail",
+      eastcoast: {
+        title: "12 Days / 11 Nights - Sri Lanka North & East Coast Escape",
         description:
-          "Multi-day treks across mountain ridges with local guides and overnight camping.",
+          "Discover the enchanting contrasts of Sri Lanka on this immersive 12-day journey that blends ancient kingdoms, dramatic highlands, and the untouched elegance of the island’s eastern and southern coasts. Begin your adventure amidst cultural icons like Sigiriya and Polonnaruwa, unwind on the golden beaches of Pasikudah and Arugam Bay, and witness the thrill of Yala’s wildlife. The journey continues through breathtaking hill country landscapes before concluding in the sacred city of Kandy leaving you with a lifetime of unforgettable moments.",
         description2:
-          "Details include trek length, elevation changes, pack lists, campsite facilities and altitude considerations for longer treks.",
+                    `
+
+Day 01: Arrival | Dambulla | Sigiriya
+Arrive at the airport and begin your journey toward Sigiriya. En route, explore the UNESCO-listed Dambulla Cave Temple, home to centuries-old Buddha statues and murals. Relax at your hotel in Sigiriya.
+
+Day 02: Sigiriya Exploration
+Climb the iconic Sigiriya Rock Fortress, a marvel of ancient engineering, followed by the panoramic viewpoint at Pidurangala. Later, experience authentic rural charm during a Hiriwadunna village trek.
+
+Day 03: Sigiriya | Polonnaruwa | Pasikudah
+Travel east toward the coast, stopping to explore the ancient city of Polonnaruwa with its archaeological wonders, royal palaces, and stone-carved Buddhas. Continue to the serene beachfront paradise of Pasikudah.
+
+Day 04: Pasikudah Beach Leisure
+Spend the day unwinding on one of the world’s most tranquil bays. Enjoy swimming, snorkeling, or simply basking in the sun beside crystal-clear waters.
+
+Day 05: Pasikudah to Arugam Bay
+Depart Pasikudah and journey along the coastline to Arugam Bay, Sri Lanka’s surfing capital. Check in to your beachfront resort and enjoy a relaxing evening.
+
+Day 06: Arugam Bay Beach Bliss
+Savor a full day of leisure by the ocean surf the waves, enjoy water sports, or soak in the laid-back beach atmosphere that Arugam Bay is famous for.
+
+Day 07: Arugam Bay | Yala Safari | Tissamaharama
+Travel south to Tissamaharama. In the evening, venture into Yala National Park for an exciting safari, with opportunities to spot leopards, elephants, and exotic birdlife.
+
+Day 08: Tissamaharama to Ella
+Begin your scenic hill country leg with a journey to Ella, stopping at Ravana Falls along the way. Relax amidst misty mountains and lush greenery.
+
+Day 09: Ella Highlights
+Enjoy a morning hike to Little Adam’s Peak followed by a visit to the famous Nine Arch Bridge—a stunning example of colonial-era architecture nestled in nature.
+
+Day 10: Ella | Train Ride | Nuwara Eliya | Kandy
+Experience Sri Lanka’s most scenic train journey from Ella to Nanu Oya. Explore Nuwara Eliya’s colonial charm before continuing to Kandy, with visits to a tea factory and picturesque waterfalls en route.
+
+Day 11: Kandy Cultural Tour
+Discover Kandy’s revered sites, starting with the Temple of the Tooth Relic. Continue to the Bahirawakanda Buddha Statue, Peradeniya Botanical Garden, and the Kandy View Point for a panoramic cityscape.
+
+Day 12: Departure
+Bid farewell to the island as you transfer to the airport, filled with treasured memories of Sri Lanka’s beaches, heritage, and natural wonders.
+
+
+`,
+        image: "/assets/Images/UpgradePage/2.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/UpgradePage/3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/UpgradePage/15.png",
+      },
+
+       northernheritage: {
+        title: "14 Days / 13 Nights — Northern Heritage & Coastal Discovery of Sri Lanka",
+        description:
+          "Journey through the heart of Sri Lanka’s ancient civilization and coastal beauty on this immersive 14-day itinerary. Designed for travelers who seek depth and meaning, this voyage begins in the historic plains of the north and moves through iconic cultural treasures, sacred cities and timeless landscapes  before winding down along the island’s southern shores. Explore the archaeological grandeur of Anuradhapura and Polonnaruwa, stand beneath the frescoed caverns of Dambulla, climb the dramatic Sigiriya Rock Fortress, and walk the peaceful temple avenues of Kandy. Between heritage sites you’ll travel through misty tea country and scenic railways to the eastern surf haven of Arugam Bay and the tranquil beaches of Dickwella and Mirissa. Throughout, experiences are delivered with local insight, thoughtful pacing and mindful respect for Sri Lanka’s living traditions making this more than a tour, but a thoughtful journey into the island’s soul.",
+        description2:
+                    `
+
+Day 01: Negombo → Anuradhapura
+Arrive in Negombo and transfer north to Anuradhapura. Settle into your hotel and prepare for an introduction to Sri Lanka’s ancient sacred capital.
+
+Day 02: Anuradhapura Exploration
+Spend the day discovering Anuradhapura’s stupas, monastic ruins and the venerated Sri Maha Bodhi — a profound immersion in the island’s Buddhist 
+heritage.
+
+Day 03: Anuradhapura → Sigiriya (via Dambulla)
+Travel to Sigiriya with a visit to the Golden Cave Temples of Dambulla. Arrive in Sigiriya and relax ahead of tomorrow’s climb.
+
+Day 04: Sigiriya | Sigiriya Rock & Pidurangala
+Climb the majestic Sigiriya Rock Fortress at sunrise and enjoy the panoramic views. Later ascend Pidurangala for a memorable sunset outlook.
+
+Day 05: Sigiriya → Kandy (via Matale & Spice Garden)
+Journey to Kandy, stopping in Matale to visit a vibrant spice garden and a local Hindu temple. Arrive in Kandy, the cultural heart of the hill country.
+
+Day 06: Kandy → Ella (via Nuwara Eliya & Tea Country)
+Depart Kandy for Nuwara Eliya, visiting a tea estate and factory and pausing at Ramboda Falls. Continue to Nanu Oya to board the scenic train to Ella — an unforgettable journey through tea-clad slopes.
+
+Day 07: Ella — Little Adam’s Peak & Nine Arch Bridge
+Explore Ella’s highlights with a morning hike to Little Adam’s Peak and a visit to the iconic Nine Arch Bridge set among emerald valleys.
+
+Day 08: Ella → Arugam Bay (via Ravana Falls)
+Descend from the hills, stopping at the dramatic Ravana Falls, then continue east to Arugam Bay — Sri Lanka’s laid-back surf and beach haven.
+
+Day 09: Arugam Bay | Leisure & Beach Time
+Enjoy a full day of beach leisure in Arugam Bay. Optional activities include surfing lessons, lagoon safaris and coastal exploration.
+
+Day 10: Arugam Bay → Dickwella (Coastal Transfer)
+Travel south along the coast to the quiet beaches of Dickwella. Check in and relax after a scenic day of travel.
+
+Day 11: Dickwella | Beach Day
+A restorative day to unwind on the broad sandy beach—swim, stroll, or simply enjoy the slow rhythm of coastal life.
+
+Day 12: Dickwella → Mirissa
+Short coastal transfer to Mirissa. Arrive and enjoy the relaxed seaside atmosphere and panoramic viewpoints like Coconut Tree Hill.
+
+Day 13: Mirissa | Beach & Coastal Discovery
+Spend the day at leisure in Mirissa — relax on the beach, arrange a whale-watching excursion (seasonal) or take a sunset stroll along the shore.
+
+Day 14: Mirissa → Colombo | Departure
+Transfer to Colombo for onward connections. Conclude your journey with memories of ancient monuments, highland vistas and peaceful southern beaches.
+
+
+
+`,
         image: "/assets/Images/UpgradePage/2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
