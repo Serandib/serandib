@@ -49,12 +49,12 @@ Head to the southern coast and unwind on the golden beaches of Bentota.
 
 Day 06: Bentota → Airport
 Enjoy a relaxing morning before transferring to the airport for departure.`,
-        image: "/assets/Images/UpgradePage/7.png",
-        image2: "/assets/Images/UpgradePage/15.png",
+        image: "/assets/Images/Pack/yala.jpg",
+        image2: "/assets/Images/Pack/yala.jpg",
         image3: "/assets/Images/UpgradePage/7.png",
-        image4: "/assets/Images/UpgradePage/15.png",
+        image4: "/assets/Images//Pack/yala.jpg",
         image5: "/assets/Images/UpgradePage/31.png",
-        bannerImage: "/assets/Images/UpgradePage/7.png",
+        bannerImage: "/assets/Images//Pack/yala.jpg",
       },
       culturalheritage: {
         title:
@@ -90,12 +90,12 @@ Arrive in Colombo for a relaxed day of shopping, fine dining, or exploring the c
 Day 09: Colombo → Airport
 Transfer to the airport with cherished memories of Sri Lanka’s cultural and natural treasures.
 `,
-        image: "/assets/Images/UpgradePage/15.png",
+        image: "/assets/Images/Pack/train.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/train.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/train.jpg",
       },
       thegrandheritage: {
         title:
@@ -150,12 +150,12 @@ Day 15: Departure from Airport
 Transfer to the airport with unforgettable memories of your Sri Lankan adventure.
 
 `,
-        image: "/assets/Images/UpgradePage/15.png",
+        image: "/assets/Images/Pack/nisa.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/nisa.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/nisa.jpg",
       },
     },
   },
@@ -163,7 +163,7 @@ Transfer to the airport with unforgettable memories of your Sri Lankan adventure
   beachholidays: {
     title: "Beach Holidays",
     description: "",
-    image: "/assets/Images/UpgradePage/2.jpg",
+    image: "/assets/Images/Pack/beach.jpg",
     children: {
       tropicalbeach: {
         title: "7 Days / 6 Nights – Tropical Beach Escape of Sri Lanka",
@@ -193,12 +193,12 @@ Transfer to the airport with sun-soaked memories of your beachside escape.
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/seapack1.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/seapack1.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/seapack1.jpg",
       },
       srilankacoastal: {
         title:
@@ -245,12 +245,12 @@ Transfer to the airport with beautiful memories of your coastal and wildlife adv
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/beach.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/beach.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/beach.jpg",
       },
 
       coastalwonders: {
@@ -303,12 +303,12 @@ Day 14: Departure
 Transfer to the airport, carrying with you the serene beauty and stories of Sri Lanka’s coasts.
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/seapack3.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/seapack3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/seapack3.jpg",
       },
     },
   },
@@ -349,12 +349,12 @@ Transfer to the airport with memories of Sri Lanka’s unparalleled wildlife and
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/dear.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/dear.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/dear.jpg",
       },
       ultimatewildlife: {
         title:
@@ -407,16 +407,16 @@ Transfer to the airport with unforgettable memories of Sri Lanka’s wildlife an
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/tiger.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images//Pack/tiger.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/tiger.jpg",
       },
       ultimatewildliferainforest: {
         title:
-          "7 Days / 16 Nights – Ultimate Wildlife, Rainforest & Coastal Expedition of Sri Lanka",
+          "17 Days / 16 Nights – Ultimate Wildlife, Rainforest & Coastal Expedition of Sri Lanka",
         description:
           "Embark on the most comprehensive wildlife journey across Sri Lanka’s extraordinary national parks, rainforests, highlands, and pristine coastlines. This epic adventure is designed for true wildlife enthusiasts and nature lovers, offering multiple safari experiences, scenic landscapes, rainforest treks, and relaxing beach escapes. From spotting elusive leopards in Wilpattu and Yala to witnessing elephants in Udawalawe and rare birds in Kumana and Sinharaja, every day brings a new encounter with nature’s wonders. Combined with misty tea plantations, cultural heritage sites, and serene beaches, this is Sri Lanka’s wild heart revealed in its purest form.",
         description2: `
@@ -474,12 +474,12 @@ Transfer to the airport with memories of Sri Lanka’s untamed beauty and serene
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/sinharaja.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/sinharaja.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/sinharaja.jpg",
       },
     },
   },
@@ -503,12 +503,12 @@ you bid farewell feeling renewed, rebalanced, and reconnected—carrying the hea
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/spa1.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/spa1.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/spa1.jpg",
       },
       
     },
@@ -543,12 +543,12 @@ Visit Kelaniya Temple, associated with Vibhishana and the final chapter of the R
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/rama1.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/rama1.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/rama1.jpg",
       },
       ramayanaspiritual: {
         title: "7 Days / 6 Nights - Ramayana Spiritual Journey – A Pilgrimage of Faith, Legend & Divine Energy",
@@ -580,12 +580,12 @@ Visit the Kelaniya Temple believed to be blessed by Lord Buddha and associated w
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/rama2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/rama2.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/10.png",
+        bannerImage: "/assets/Images/Pack/rama2.jpg",
       },
       sacredramayana: {
         title: "10 Days / 9 Nights - Sacred Ramayana Trail of Sri Lanka",
@@ -626,12 +626,12 @@ Visit the sacred Kelaniya Temple, associated with King Vibhishana, before depart
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/rama3.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/rama3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/10.png",
+        bannerImage: "/assets/Images/Pack/rama3.jpg",
       },
 
 
@@ -670,12 +670,12 @@ Enjoy a sightseeing tour of Colombo’s landmarks and shopping districts before 
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/adve1.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/adve1.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/adve1.jpg",
       },
       srilankaadventure: {
         title: "10 Days / 9 Nights - Sri Lanka Adventure & Heritage Expedition",
@@ -715,12 +715,12 @@ Day 10: Departure
 Transfer to the airport with memories of adventure, culture, and the natural wonders of Sri Lanka.
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/adve2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/adve2.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/adve2.jpg",
       },
 
       cultural: {
@@ -774,12 +774,12 @@ Optional morning safari or leisure time before departure. Transfer to Colombo or
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/adve3.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/adve3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/adve3.jpg",
       },
 
 
@@ -801,29 +801,29 @@ Optional morning safari or leisure time before departure. Transfer to Colombo or
 
 
 
-Fee for Registrar
+1. Fee for Registrar
 
-Onsite wedding coordinator
+2. Onsite wedding coordinator
 
-Body massage for couple on the day prior to the wedding
+3. Body massage for couple on the day prior to the wedding
 
-Marriage license and certificate
+4. Marriage license and certificate
 
-Bottle of sparkling wine for the couple during the ceremony
+5. Bottle of sparkling wine for the couple during the ceremony
 
-Two-tiered wedding cake
+6. Two-tiered wedding cake
 
-Bouquet and button-hole
+7. Bouquet and button-hole
 
-Witness if required
+8. Witness if required
 
-Decorated wedding location
+9. Decorated wedding location
 
-Traditional oil lamp decorated with fresh flowers
+10. Traditional oil lamp decorated with fresh flowers
 
-Traditional religious blessings sung by a group of Sri Lankan girls
+11. Traditional religious blessings sung by a group of Sri Lankan girls
 
-Souvenir gift from the hotel 24 photographs with album (8 x 13 inches with 72 negatives)
+12. Souvenir gift from the hotel 24 photographs with album (8 x 13 inches with 72 negatives)
 
 
 
@@ -842,31 +842,32 @@ Souvenir gift from the hotel 24 photographs with album (8 x 13 inches with 72 ne
         description2:
           `
 
-Fee for Registrar
+1. Fee for Registrar
 
-Onsite wedding coordinator
+2. Onsite wedding coordinator
 
-Deep cleansing facial for the bride on the day prior to the wedding
+3. Deep cleansing facial for the bride on the day prior to the wedding
 
-Aromatic body massages for the bride and groom in the privacy of the Penthouse Suite on the sundeck or at the Spa
+4. Aromatic body massages for the bride and groom in the privacy of the Penthouse Suite on the sundeck or at the Spa
 Marriage license and certificate
-Special dinner in the room served from the signature restaurant, with a complimentary bottle of Champagne
 
-Two-tiered wedding cake
+5. Special dinner in the room served from the signature restaurant, with a complimentary bottle of Champagne
 
-Bouquet and button-hole
+6. Two-tiered wedding cake
 
-Witness if required
+7. Bouquet and button-hole
 
-Decorated wedding location
+8. Witness if required
 
-Traditional oil lamp decorated with fresh flowers
+9. Decorated wedding location
 
-CD of the wedding
+10. Traditional oil lamp decorated with fresh flowers
 
-Souvenir gift from the hotel
+11. CD of the wedding
 
-Traditional religious blessings sung by a group of Sri Lankan girls
+12. Souvenir gift from the hotel
+
+13. Traditional religious blessings sung by a group of Sri Lankan girls
 
 
 
@@ -966,12 +967,12 @@ Bid farewell to Sri Lanka as you transfer to the airport, taking home cherished 
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/roma1.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/roma1.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/roma1.jpg",
       },
       romanticdiscovery: {
         title: "12 Days / 11 Nights - Romantic Discovery of Sri Lanka",
@@ -1019,12 +1020,12 @@ Transfer to the airport with hearts full of love and a lifetime of unforgettable
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/roma2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/roma2.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/roma2.jpg",
       },
 
       enchantingromantic: {
@@ -1088,12 +1089,12 @@ Say goodbye to paradise with hearts full of memories that will last a lifetime.
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/roma3.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/roma3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/roma3.jpg",
       },
 
 
@@ -1144,12 +1145,12 @@ Your unforgettable journey comes to an end. Transfer to the airport with memorie
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/noth1.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/noth1.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/noth1.jpg",
       },
       eastcoast: {
         title: "12 Days / 11 Nights - Sri Lanka North & East Coast Escape",
@@ -1196,12 +1197,12 @@ Bid farewell to the island as you transfer to the airport, filled with treasured
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/noth2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/noth2.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/noth2.jpg",
       },
 
        northernheritage: {
@@ -1257,49 +1258,141 @@ Transfer to Colombo for onward connections. Conclude your journey with memories 
 
 
 `,
-        image: "/assets/Images/UpgradePage/2.jpg",
+        image: "/assets/Images/Pack/noth3.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/noth3.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/noth3.jpg",
       },
     },
   },
   excursions: {
-    title: "Adventure & Trekking",
+    title: "Excursions",
     description:
-      "Hike scenic trails, discover waterfalls and remote villages, and experience the island’s dramatic landscapes on foot.",
+      "",
     image: "/assets/Images/UpgradePage/2.jpg",
     children: {
-      waterfallhike: {
-        title: "Waterfall Hike",
+      colomboexcursion: {
+        title: "Colombo Excursion",
         description:
-          "Day hikes to spectacular waterfalls, including picnic stops and swimming where safe.",
+          "Discover Sri Lanka’s bustling commercial capital, where colonial architecture meets cosmopolitan charm. This excursion offers a blend of heritage exploration, spiritual visits, local lifestyle experiences, and shopping opportunities — ideal for first-time visitors who want to capture the essence of Colombo in comfort and style.",
         description2:
-          "Includes recommended footwear, difficulty grading, water safety tips and seasonal flow information to help choose the best time to visit.",
-        image: "/assets/Images/UpgradePage/2.jpg",
+          `Duration: Half Day or Full Day
+Type: Guided City Tour with Cultural, Historical, and Modern Highlights
+
+Places You Will Visit
+1. Gangaramaya Temple & Beira Lake
+2. Independence Memorial Hall
+3. Galle Face Green
+4. Old Parliament & Fort Area (Drive-Through Tour)
+5. Pettah Market
+6. Lotus Tower (Optional Add-On)
+7. Colombo National Museum
+8. Shopping Experience
+
+Inclusions
+Professional licensed tour guide or chauffeur-guide
+Air-conditioned vehicle for all transfers
+Entrance fees to temples & museums (if specified in package)
+Bottled water during the tour
+Government taxes & service charges
+
+Exclusions
+Meals & personal expenses
+Optional entrance tickets (Lotus Tower, Spa Ceylon, National Museum – unless pre-booked)
+Tips and porterage
+Early check-in / late check-out at hotels
+Anything not mentioned under “Inclusions”
+`,
+        image: "/assets/Images/Pack/excus1.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/excus1.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/excus1.jpg",
       },
-      mountaintrail: {
-        title: "Mountain Trail",
+      kandyheritage: {
+        title: "Kandy Heritage - Cultural Excursion",
         description:
-          "Multi-day treks across mountain ridges with local guides and overnight camping.",
+          "Explore the last kingdom of Sri Lanka, where history, spirituality, and nature blend in perfect harmony. Kandy is a must-see destination for culture lovers and nature enthusiasts.",
         description2:
-          "Details include trek length, elevation changes, pack lists, campsite facilities and altitude considerations for longer treks.",
-        image: "/assets/Images/UpgradePage/2.jpg",
+          `Duration: Full Day
+Type: Cultural, Historical & Scenic Tour
+Location: Central Highlands of Sri Lanka (UNESCO World Heritage City)
+
+
+Places You Will Visit
+1. Temple of the Sacred Tooth Relic (Sri Dalada Maligawa)
+2. Royal Botanical Gardens – Peradeniya
+3. Kandy Lake & Viewpoint
+4. Traditional Cultural Dance Show
+5. Bahirawakanda Buddha Statue
+6. Gem Museum & Spice Garden (Optional)
+
+Inclusions
+Air-conditioned private vehicle with driver/guide
+Entrance to Temple of Tooth & Cultural Show
+Bottled water during the journey
+Government taxes and handling charges
+Parking & highway fees
+
+Exclusions
+Lunch or personal refreshments
+Camera or video permits inside the Temple
+Tips and personal expenses
+Optional visits (Spice Garden, Gem Shop purchases)
+
+`,
+        image: "/assets/Images/Pack/excus2.jpg",
         image2: "/assets/Images/UpgradePage/3.jpg",
         image3: "/assets/Images/UpgradePage/3.jpg",
-        image4: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/excus2.jpg",
         image5: "/assets/Images/UpgradePage/3.jpg",
-        bannerImage: "/assets/Images/UpgradePage/15.png",
+        bannerImage: "/assets/Images/Pack/excus2.jpg",
+      },
+      yalanational: {
+        title: "Yala National Park Luxury Jeep Safari",
+        description:
+          "Yala National Park is the best place in the world to spot leopards in the wild. Enjoy a luxury safari experience with maximum comfort, privacy, and professional guidance.",
+        description2:
+          `Duration: Half Day or Full Day
+Type: Wildlife Safari in a Premium 4x4 Jeep
+Ideal for: Wildlife enthusiasts, photographers, couples seeking adventure
+
+Safari Highlights
+1. Exclusive Luxury Jeep
+2. Wildlife Encounters
+3. Scenic Landscapes
+4. Customized Experience
+
+Inclusions
+Private luxury 4x4 safari jeep (with reclining seats)
+Experienced naturalist safari guide
+Park entrance fees & government taxes
+Bottled water and light refreshments
+Binoculars and wildlife reference sheets
+
+Exclusions
+Meals (unless pre-arranged)
+Tips for guide/driver
+Camera/video permits (if applicable)
+Hotel pickup/drop (optional add-on)
+
+`,
+        image: "/assets/Images/Pack/excus3.jpg",
+        image2: "/assets/Images/UpgradePage/3.jpg",
+        image3: "/assets/Images/UpgradePage/3.jpg",
+        image4: "/assets/Images/Pack/excus3.jpg",
+        image5: "/assets/Images/UpgradePage/3.jpg",
+        bannerImage: "/assets/Images/Pack/excus3.jpg",
       },
     },
   },
+
+
+
+
 };
 
 export default packagesData;

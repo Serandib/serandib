@@ -22,6 +22,52 @@ export default async function SubPackagePage({ params }: Props) {
   const sub = pkg.children?.[subKey];
   if (!sub) notFound();
 
+  // Special layout for Dream Weddings and Excursions subpages
+  if (pkgKey === "dreamweddings" || pkgKey === "excursions") {
+    return (
+      <div className="mt-44 max-w-5xl mx-auto">
+        <h1 className="text-4xl font-bold mb-4">{sub.title}</h1>
+        <p className="mb-6 text-justify">{sub.description}</p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <Image
+              width={900}
+              height={600}
+              src={sub.bannerImage || sub.image}
+              alt={sub.title}
+              className="rounded shadow-lg w-full object-cover"
+            />
+          </div>
+
+          <div className="flex flex-col justify-between">
+            <div>
+              <h2 className="text-xl font-semibold mb-">What is included</h2>
+              <div className="text whitespace-pre-wrap text-justify">
+                {sub.description2}
+              </div>
+            </div>
+
+            {/* <div className="mt-6 flex flex-col gap-3">
+                <Link
+                  href="/ContactUs#weddings"
+                  className="bg-primary text-white py-3 px-4 rounded text-center"
+                >
+                  Request a Quote
+                </Link>
+                <Link
+                  href="/ContactUs#faq-section"
+                  className="border border-primary py-3 px-4 rounded text-center"
+                >
+                  Contact Planner
+                </Link>
+              </div> */}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     // <div className="p-10 flex flex-col items-center mt-40">
     //   <h1 className="text-4xl font-bold text-primary mb-5">{sub.title}</h1>
@@ -93,27 +139,27 @@ export default async function SubPackagePage({ params }: Props) {
         </div> */}
         <div className="flex md:flex-row flex-col justify-between">
           <div className="w-1/2 text-lg font-medium mt-5 flex flex-col">
-            <div className="font-medium ">{sub.description}</div>
-             <ReadMoreModal
-                    title={sub.title}
-                    description2={sub.description2}
-                    images={[
-                      sub.image,
-                      sub.image2,
-                      sub.image3,
-                      // sub.image4,
-                      // sub.image5,
-                    ].filter(Boolean)}
-                    bannerImage={sub.bannerImage}
-                  />
+            <div className="font-medium text-justify">{sub.description}</div>
+            <ReadMoreModal
+              title={sub.title}
+              description2={sub.description2}
+              images={[
+                sub.image,
+                sub.image2,
+                sub.image3,
+                // sub.image4,
+                // sub.image5,
+              ].filter(Boolean)}
+              bannerImage={sub.bannerImage}
+            />
           </div>
-          <div className="flex w-1/2 justify-center mt-5 flex-col gap-5 items-center">
+          <div className="flex  justify-center mt-5 flex-col gap-5 items-center">
             <Image
-              width={300}
-              height={300}
+              width={500}
+              height={500}
               src={sub.image4}
               alt={sub.title}
-              className="rounded  shadow-lg"
+              className="rounded-2xl w-[600px] h-[400px] shadow-lg "
             />
             {/* <Link
               href="/ContactUs#faq-section"

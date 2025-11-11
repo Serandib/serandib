@@ -11,21 +11,21 @@ export default function PackagesPage() {
       name: "Cultural - Heritage Tours",
       image: "/assets/Images/Desti/kandycard.jpg",
     },
-    { name: "Beach Holidays", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Beach Holidays", image: "/assets/Images/Pack/seapack2.jpg" },
     {
       name: "Wildlife - Nature Tours",
-      image: "/assets/Images/UpgradePage/2.jpg",
+      image: "/assets/Images/Pack/elephan.jpg",
     },
     {
       name: "Ayurveda and Wellness Tours",
-      image: "/assets/Images/UpgradePage/2.jpg",
+      image: "/assets/Images/Pack/spa.jpg",
     },
-    { name: "Ramayana Yathra", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Adventure Tours", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Dream Weddings", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Romantic Holidays", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Northern Sri Lanka", image: "/assets/Images/UpgradePage/2.jpg" },
-    { name: "Excursions", image: "/assets/Images/UpgradePage/2.jpg" },
+    { name: "Ramayana Yathra", image: "/assets/Images/Pack/rama.jpg" },
+    { name: "Adventure Tours", image: "/assets/Images/Pack/adve.jpg" },
+    { name: "Dream Weddings", image: "/assets/Images/Pack/.jpg" },
+    { name: "Romantic Holidays", image: "/assets/Images/Pack/roma.jpg" },
+    { name: "Northern Sri Lanka", image: "/assets/Images/Pack/.jpg" },
+    { name: "Excursions", image: "/assets/Images/Pack/excus.jpg" },
   ];
 
   return (
@@ -38,7 +38,9 @@ export default function PackagesPage() {
           }}
         >
           <div className="absolute inset-0 "></div>
-          <div className={`${playfair.className} relative text-4xl md:text-7xl font-medium text-right text-white mt-36 mr-20 font-sans3 `}>
+          <div
+            className={`${playfair.className} relative text-4xl md:text-7xl font-medium text-right text-white mt-36 mr-20 font-sans3 `}
+          >
             Discover <br /> Our Packages
           </div>
           <div className="flex justify-center mt-60 ">
