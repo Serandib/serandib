@@ -137,21 +137,21 @@ export default function Homepage() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <div className="relative w-full h-[100vh]">
+      <div className="relative w-full md:h-[100vh] h-[60vh]">
         <Image
           src="/assets/Images/Desti/explore1.jpg"
           alt="background"
           fill
           priority
-          className="object-cover brightness-75"
+          className="object-cover brightness-75 md:flex hidden"
         />
-        <div className="absolute inset-0 bg-black/40" />
-        <div className="relative z-10 flex items-center justify-center h-full text-center">
+        <div className="absolute inset-0 md:bg-black/40" />
+        <div className="relative z-10 flex items-center justify-center md:h-full h-[400] text-center">
           <Container>
-            <h1 className="text-5xl md:text-6xl font-bold text-white">
+            <h1 className={`${playfair.className} text-5xl md:text-6xl font-bold md:text-white text-primary`}>
               Explore the World
             </h1>
-            <p className="mt-4 text-lg text-gray-200">
+            <p className="mt-4 text-lg md:text-gray-200 text-secondary2">
               Discover destinations and experiences.
             </p>
           </Container>
@@ -160,7 +160,7 @@ export default function Homepage() {
 
       {/* Package Carousel Section */}
       <Container>
-        <div className="mt-24 mb-24 relative">
+        <div className="md:mt-24 mb-24 relative">
           <h2
             className={`${playfair.className} text-4xl md:text-5xl text-center font-semibold text-primary mb-12`}
           >
@@ -239,7 +239,7 @@ export default function Homepage() {
           {/* Destinations Carousel (mirrors packages) */}
           <div className="mt-16 mb-8 relative">
             <h2
-              className={`${playfair.className} text-3xl md:text-4xl text-center font-semibold text-primary mb-8`}
+              className={`${playfair.className} text-4xl md:text-5xl text-center font-semibold text-primary mb-8`}
             >
               Popular Destinations
             </h2>
@@ -325,7 +325,7 @@ export default function Homepage() {
               Why Choose <span className="font-bold">Serendib</span>
               <span className="text-primary2 font-bold">GO?</span>
             </div>
-            <div className="flex-1  text-xl text-justify">
+            <div className="flex-1  md:text-xl text-justify mt-5">
               At SerendibGo, we design journeys that awaken your sense of
               wonder. Born from a love for our island home, we combine insider
               knowledge, heartfelt hospitality, and attention to detail to
@@ -339,7 +339,7 @@ export default function Homepage() {
 
           <div className=" flex md:flex-row flex-col md:mt-28 mt-10">
             <div className="flex flex-col md:gap-20 gap-10">
-              <div className="flex text-xl text-justify ">
+              <div className="flex md:text-xl text-justify ">
                 In tincidunt egestas purus, vitae tincidunt dolor lobortis ac.
                 Lorem ipsum dolor sit amet.
               </div>

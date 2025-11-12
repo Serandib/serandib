@@ -1,145 +1,152 @@
+"use client";
+import { motion } from "framer-motion";
 import Container from "@/components/common/container";
 import Image from "next/image";
 
 export default function AboutUsPage() {
   return (
     <Container>
-      <div className="mt-40 font-bold text-4xl">
-        <div>
-          {/* <div className="font-bold text-4xl">
-            Welcome to <span className="text-primary">Serendib</span>
-            <span className="text-primary2">Go</span>{" "}
-          </div> */}
-          <div className="font-bold  md:text-3xl text-xl mt-5">
-            Our <span className="text-primary2">Story</span>{" "}
+      <div className="mt-32 flex flex-col gap-28">
+        {/* Hero Section */}
+        <section className="relative w-full h-[500px] md:h-[600px] rounded-3xl overflow-hidden shadow-lg">
+          <Image
+            src="/assets/Images/Pack/yala.jpg"
+            alt="SerendibGo"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center text-white p-6">
+            <motion.h1
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="text-5xl md:text-7xl font-extrabold tracking-tight"
+            >
+              About <span className="text-primary2">SerendibGo</span>
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="mt-6 text-lg md:text-xl max-w-3xl"
+            >
+              Experience Sri Lanka like never before — where culture, nature,
+              and community come together in every journey.
+            </motion.p>
           </div>
-          <div className="font-medium md:text-xl text-lg mt-5 text-justify">
-            At <span className="font-bold">SerendibGo</span>, we believe travel
-            has the power to transform lives not just for travelers, but for
-            communities, wildlife, and the environment. As a responsible
-            destination management company, we are committed to creating
-            meaningful journeys that protect Sri Lanka’s natural heritage,
-            celebrate local culture, and empower the communities that make this
-            island so extraordinary. Every experience we design is carefully
-            curated with sustainability in mind. From partnering with
-            eco-friendly accommodations and supporting local artisans to
-            promoting ethical wildlife encounters and low-impact travel
-            practices, we ensure that your journey contributes positively to Sri
-            Lanka’s future. With a team of experienced travel experts and local
-            guides, we craft bespoke tours that reflect your passions while
-            honoring the land we call home. When you travel with SerendibGo, you
-            are not just exploring Sri Lanka you are helping preserve its
-            beauty, uplift its people, and support responsible tourism
-            initiatives that make a lasting difference. Travel with purpose.
-            Experience with heart. At SerendibGo, we take you from dreams to
-            memories.
+        </section>
+
+        {/* Our Story */}
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="flex flex-col md:flex-row items-center gap-10"
+        >
+          <div className="flex-1 text-justify">
+            <h2 className="font-bold text-4xl md:text-5xl mb-4">
+              Our <span className="text-primary2">Story</span>
+            </h2>
+            <p className="text-gray-700 text-lg leading-relaxed">
+              At <span className="font-bold text-primary">SerendibGo</span>, we
+              believe travel can transform lives — not only for travelers but
+              for communities, wildlife, and the environment. Every experience
+              we design celebrates Sri Lanka’s heritage and preserves its
+              future.
+              <br />
+              <br />
+              We collaborate with local artisans, eco-lodges, and sustainable
+              guides to ensure your journey enriches both you and the island you
+              explore. Travel with purpose. Experience with heart. At
+              SerendibGo, we take you from dreams to memories.
+            </p>
           </div>
-        </div>
-        <div className="  flex md:flex-row flex-col mt-10">
-          {/* <div className="flex">
+          <div className="flex-1">
             <Image
-              src="/assets/Images/UpgradePage/2.jpg"
-              alt=""
-              width={200}
-              height={200}
+              src="/assets/Images//Pack/yala.jpg"
+              alt="Our Story"
+              width={600}
+              height={400}
+              className="rounded-2xl shadow-lg object-cover w-full h-[400px]"
             />
-          </div> */}
-          <div className="flex flex-col">
-            <div className="font-bold md:text-3xl text-xl mt-10">
-              Our <span className="text-primary">Mission</span>
-            </div>
-            <ul className="list-disc list-inside md:text-xl text-lg font-medium mt-5 space-y-2">
-              <li>
-                To design authentic, meaningful, and personalized travel
-                experiences that showcase the true essence of Sri Lanka.
-              </li>
-              <li>
-                To ensure exceptional service through responsible tourism
-                practices, innovation, and local expertise.
-              </li>
-              <li>
-                To enrich the lives of travelers while uplifting local
-                communities and preserving natural and cultural heritage.
-              </li>
-              <li>
-                To deliver journeys that go beyond sightseeing — offering
-                emotion, adventure, and unforgettable moments at every step.
-              </li>
-            </ul>
           </div>
-        </div>
-        <div className="text-center">
-          <div className="md:text-3xl text-xl font-extrabold mt-10">Vision</div>
-          <div className="md:text-xl text-lg font-medium mt-5">
-            &quot; To be Sri Lanka’s most trusted and transformative travel
-            partner, creating unforgettable journeys that celebrate culture,
-            nature, and human connection turning every traveler’s dream into
-            timeless memories. &quot;
+        </motion.section>
+
+        {/* Mission Section */}
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="bg-primary2/10 rounded-3xl p-10 md:p-16 shadow-md"
+        >
+          <h2 className="font-bold text-4xl mb-6 text-center">
+            Our <span className="text-primary">Mission</span>
+          </h2>
+          <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed space-y-3 max-w-3xl mx-auto">
+            <li>
+              Design authentic, meaningful, and personalized travel experiences.
+            </li>
+            <li>
+              Ensure exceptional service through responsible tourism and
+              innovation.
+            </li>
+            <li>Empower communities while preserving Sri Lanka’s heritage.</li>
+            <li>
+              Deliver journeys that go beyond sightseeing — creating memories
+              for life.
+            </li>
+          </ul>
+        </motion.section>
+
+        {/* Vision Section */}
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center"
+        >
+          <h2 className="font-bold text-4xl mb-4 text-primary2">Our Vision</h2>
+          <p className="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            &quot;To be Sri Lanka’s most trusted and transformative travel
+            partner, crafting unforgettable journeys that celebrate culture,
+            nature, and human connection — turning every traveler’s dream into
+            timeless memories.&quot;
+          </p>
+        </motion.section>
+
+        {/* Sustainability Section */}
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="flex flex-col md:flex-row items-center gap-10"
+        >
+          <div className="flex-1 order-2 md:order-1 text-justify">
+            <h2 className="font-bold text-4xl mb-4">
+              Our <span className="text-primary2">Sustainability</span> Promise
+            </h2>
+            <p className="text-gray-700 text-lg leading-relaxed">
+              At SerendibGo, sustainability isn’t an option — it’s a promise. We
+              work to protect Sri Lanka’s ecosystems, empower its communities,
+              and preserve its traditions through conscious tourism. From
+              eco-conscious lodging and waste reduction to responsible wildlife
+              encounters and cultural preservation, every tour is a step toward
+              a greener, fairer future. When you travel with us, you become part
+              of this mission — creating change, connection, and conservation
+              with every journey.
+            </p>
           </div>
-        </div>
-        <div>
-          <div className="md:text-3xl text-xl font-bold mt-10 ">
-            Sustainability
+          <div className="flex-1 order-1 md:order-2">
+            <Image
+              src="/assets/Images/Pack/yala.jpg"
+              alt="Sustainability"
+              width={600}
+              height={400}
+              className="rounded-2xl shadow-lg object-cover w-full h-[400px]"
+            />
           </div>
-          <div className="md:text-xl text-lg font-medium mt-5 text-justify">
-            At SerendibGo, we believe that travel is not just about exploring
-            new destinations, but about nurturing the planet and people who make
-            those journeys meaningful. Our commitment to sustainability and
-            responsible tourism is deeply rooted in our philosophy of creating
-            travel experiences that protect the environment, empower local
-            communities, and preserve Sri Lanka’s cultural heritage for future
-            generations. We view tourism as a powerful force for positive
-            change, and every journey we curate is designed with purpose,
-            consciousness, and long-term responsibility. Environmental
-            conservation is at the heart of our operations. Sri Lanka is blessed
-            with extraordinary biodiversity, from lush rainforests to thriving
-            marine life, and we are dedicated to safeguarding these precious
-            ecosystems. We actively promote eco-friendly practices such as
-            reducing plastic waste, supporting responsible wildlife tourism, and
-            partnering with accommodations and service providers that follow
-            sustainable environmental standards. Our guests are encouraged to
-            travel mindfully, respecting the fragile balance of nature and
-            leaving behind nothing but footprints. SerendibGo is equally
-            passionate about uplifting local communities and protecting cultural
-            traditions. We believe that tourism should directly enrich the lives
-            of the people who welcome travelers to their homeland. That is why
-            we collaborate with local guides, family-run establishments, and
-            community-based tourism initiatives to ensure that the economic
-            benefits of travel remain within rural and indigenous communities.
-            Through immersive cultural experiences, we help preserve age-old
-            traditions, crafts, and customs while creating meaningful exchanges
-            between travelers and locals.
-          </div>
-          <div className="flex md:flex-row flex-col mt-10">
-            <div className="flex-1">
-              <Image
-                src="/assets/Images/UpgradePage/2.jpg"
-                alt=""
-                width={200}
-                height={200}
-              />
-            </div>
-            <div className="md:text-xl text-lg font-medium md:text-end text-justify flex-1/2 mt-5">
-              We are also committed to preserving Sri Lanka’s spiritual and
-              historical legacy by promoting responsible visitation to religious
-              sites, temples, and heritage locations. Our tours are designed to
-              foster cultural understanding and encourage travelers to engage
-              respectfully with local customs. By creating awareness and
-              promoting responsible behaviors, we ensure that Sri Lanka’s
-              cultural treasures are cherished and protected rather than
-              commercialized or exploited. At SerendibGo, sustainability is not
-              an option it is a promise. We continually strive to innovate and
-              implement practices that reduce our environmental footprint,
-              support ethical tourism models, and contribute to community
-              development. Our goal is to redefine travel as a transformative
-              force that brings joy to the traveler while protecting the natural
-              and cultural treasures of Sri Lanka. When you travel with
-              SerendibGo, you become a part of this mission helping us create a
-              future where travel inspires protection, connection, and lasting
-              positive impact.
-            </div>
-          </div>
-        </div>
+        </motion.section>
       </div>
     </Container>
   );

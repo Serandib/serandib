@@ -45,20 +45,26 @@ export default function ExplorePage() {
     <Container>
       <div
         className="bg- bg-center bg-no-repeat py-24 md:h-[700] h-[500] lg:mb-[2300] md:mb-[1500] mb-[3800] relative "
-        style={{
-          backgroundImage: "url('/assets/Images/Desti/explore.jpg')",
-        }}
+        // style={{
+        //   backgroundImage: "url('/assets/Images/Desti/explore.jpg')",
+        // }}
       >
+        <Image
+          src="/assets/Images/Desti/explore.jpg"
+          alt="background"
+          fill
+          priority
+          className="object-cover brightness-75 md:flex hidden"
+        />
         <div className="absolute inset-0 "></div>
-        <div className="mt-32 mb-20 relative z-10">
+        <div className="md:mt-32 mt-10 mb-20 relative z-10">
           <div className="flex md:flex-row  flex-col gap-32 ">
             <div className="flex-1 flex-col">
               <h1
-                className={`${playfair.className} font-medium md:text-7xl text-4xl text-white mr-10 mt-5 text-right`}
+                className={`${playfair.className} font-bold md:text-7xl text-4xl md:text-white text-primary md:mr-10 md:mt-5 md:text-right text-center `}
               >
                 Explore <br /> Sri Lanka
               </h1>
-              
             </div>
             {/* <div className="md:flex mt-5 hidden">
               <Image
@@ -71,7 +77,7 @@ export default function ExplorePage() {
             </div> */}
           </div>
 
-          <div className="mt-96 flex flex-col gap-28">
+          <div className="md:mt-96 mt-10 flex flex-col gap-28">
             {exploreSections.map((section, index) => (
               <motion.div
                 key={index}
