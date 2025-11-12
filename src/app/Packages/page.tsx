@@ -45,6 +45,7 @@ export default function PackagesPage() {
           </div>
           <div className="flex justify-center mt-60 ">
             <div className="bg-white w-[1200] ">
+
               <div className="px-6 md:px-16   mt-10 ">
                 {/* Heading */}
 
@@ -112,7 +113,10 @@ export default function PackagesPage() {
                     ))}
                   </motion.div>
                 </div>
+                
               </div>
+
+
             </div>
           </div>
         </div>

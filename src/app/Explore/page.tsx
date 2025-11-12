@@ -31,7 +31,7 @@ export default function ExplorePage() {
       reverse: false,
       link: "/Explore/Things",
     },
-    
+
     {
       title: "Attractions",
       text: "From ancient cities to natural wonders, Sri Lanka’s attractions promise to captivate every traveler. Explore the UNESCO World Heritage sites of Sigiriya, Polonnaruwa, and Anuradhapura, each echoing the island’s royal past. Wander through lush tea plantations, mist-covered mountains, and wildlife sanctuaries teeming with life. Discover the architectural beauty of colonial towns, sacred temples, and golden beaches that stretch for miles. Whether you’re seeking history, nature, or adventure, Sri Lanka’s attractions offer a perfect balance of serenity, excitement, and timeless beauty.",
@@ -43,93 +43,91 @@ export default function ExplorePage() {
 
   return (
     <Container>
-      <div className="mt-32 mb-20">
-        <div className="flex md:flex-row  flex-col gap-32 ">
-          <div className="flex-1 flex-col">
-            <h1
-              className={`${playfair.className} font-medium md:text-6xl text-4xl text-primary mb-5 mt-5`}
-            >
-              Explore <br /> Sri Lanka
-            </h1>
-            <p
-              className={`${sans3.className} text-gray-600 w-full md:text-xl leading-relaxed text-justify `}
-            >
-              Step into the heart of Sri Lanka, an island of timeless beauty and
-              endless wonder. From golden beaches kissed by the Indian Ocean to
-              emerald tea-carpeted hills and ancient cities whispering stories
-              of glorious kingdoms, every landscape has its own rhythm. Explore
-              the warmth of the people, the richness of the culture, and the
-              island’s vibrant mix of nature and heritage. Sri Lanka isn’t just
-              a destination, it’s a journey that stays with you forever.
-            </p>
+      <div
+        className="bg- bg-center bg-no-repeat py-24 md:h-[700] h-[500] lg:mb-[2300] md:mb-[1500] mb-[3800] relative "
+        style={{
+          backgroundImage: "url('/assets/Images/Desti/explore.jpg')",
+        }}
+      >
+        <div className="absolute inset-0 "></div>
+        <div className="mt-32 mb-20 relative z-10">
+          <div className="flex md:flex-row  flex-col gap-32 ">
+            <div className="flex-1 flex-col">
+              <h1
+                className={`${playfair.className} font-medium md:text-7xl text-4xl text-white mr-10 mt-5 text-right`}
+              >
+                Explore <br /> Sri Lanka
+              </h1>
+              
+            </div>
+            {/* <div className="md:flex mt-5 hidden">
+              <Image
+                src="/assets/Images/Desti/explore.jpg"
+                alt=""
+                width={800}
+                height={800}
+                className="rounded-2xl w-[800px] h-[600px] "
+              ></Image>
+            </div> */}
           </div>
-          <div className="md:flex mt-5 hidden">
-            <Image
-              src="/assets/Images/Desti/explore.jpg"
-              alt=""
-              width={800}
-              height={800}
-              className="rounded-2xl w-[800px] h-[600px] "
-            ></Image>
-          </div>
-        </div>
 
-        <div className="mt-24 flex flex-col gap-28">
-          {exploreSections.map((section, index) => (
-            <motion.div
-              key={index}
-              className={`flex flex-col md:flex-row ${
-                section.reverse ? "md:flex-row-reverse" : ""
-              } items-center justify-between gap-10 `}
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
-            >
+          <div className="mt-96 flex flex-col gap-28">
+            {exploreSections.map((section, index) => (
               <motion.div
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.3 }}
-                className=" rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl"
+                key={index}
+                className={`flex flex-col md:flex-row ${
+                  section.reverse ? "md:flex-row-reverse" : ""
+                } items-center justify-between gap-10 `}
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.2 }}
               >
-                <Image
-                  src={section.image}
-                  alt={section.title}
-                  width={200}
-                  height={200}
-                  className="object-cover w-[650px] h-[350px]"
-                />
-              </motion.div>
-
-              <div
-                className={`flex flex-col md:w-1/2 ${
-                  section.reverse ? "text-left" : "text-right"
-                }`}
-              >
-                <h2
-                  className={`${playfair.className} font-bold text-3xl text-gray-900 mt-5 `}
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ duration: 0.3 }}
+                  className=" rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl"
                 >
-                  {section.title}
-                </h2>
-                <p
-                  className={`${sans3.className} text-gray-600 mt-5 md:text-xl leading-relaxed text-justify`}
-                >
-                  {section.text}
-                </p>
-                <div
-                  className={`mt-8 ${
-                    section.reverse ? "justify-start" : "justify-end"
-                  } flex`}
-                >
-                  <Button
-                    label="Explore More"
-                    variant="secondary"
-                    size="md"
-                    onClick={() => router.push(section.link)}
+                  <Image
+                    src={section.image}
+                    alt={section.title}
+                    width={200}
+                    height={200}
+                    className="object-cover w-[650px] h-[350px]"
                   />
+                </motion.div>
+
+                <div
+                  className={`flex flex-col md:w-1/2 ${
+                    section.reverse ? "text-left" : "text-right"
+                  }`}
+                >
+                  <h2
+                    className={`${playfair.className} font-bold text-3xl text-gray-900 mt-5 `}
+                  >
+                    {section.title}
+                  </h2>
+                  <p
+                    className={`${sans3.className} text-gray-600 mt-5 md:text-xl leading-relaxed text-justify`}
+                  >
+                    {section.text}
+                  </p>
+                  <div
+                    className={`mt-8 ${
+                      section.reverse ? "justify-start" : "justify-end"
+                    } flex`}
+                  >
+                    <Button
+                      label="Explore More"
+                      variant="secondary"
+                      size="md"
+                      onClick={() => router.push(section.link)}
+                    />
+                  </div>
                 </div>
-              </div>
-            </motion.div>
-          ))}
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </Container>

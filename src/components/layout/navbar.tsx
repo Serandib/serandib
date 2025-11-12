@@ -6,7 +6,6 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import Container from "../common/container";
 import navlinks from "@/data/navbar/nav-links";
-import Button from "../common/button";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +22,7 @@ export default function Navbar() {
                 alt="Logo"
                 width={150}
                 height={100}
+                className="w-28  md:w-36  h-auto"
               />
             </Link>
           </div>
@@ -63,7 +63,7 @@ export default function Navbar() {
 
         {/* Mobile Dropdown Menu */}
         {isOpen && (
-          <div className="md:hidden flex flex-col gap-4 pb-4 animate-slide-down">
+          <div className="md:hidden flex flex-col gap-4 p-4 animate-slide-down bg-white rounded-2xl">
             {navlinks.map((item) => (
               <Link
                 key={item.id}

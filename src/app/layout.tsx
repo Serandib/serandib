@@ -19,7 +19,7 @@ export default function RootLayout({
           className="z-20 relative flex flex-col min-h-screen bg-gray-0"
         >
           {" "}
-          <Navbar />
+          <Navbar  />
           <div>{children}</div>
           <Footer />
         </main>
