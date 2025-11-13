@@ -60,11 +60,14 @@ export default function ExplorePage() {
         <div className="md:mt-32 mt-10 mb-20 relative z-10">
           <div className="flex md:flex-row  flex-col gap-32 ">
             <div className="flex-1 flex-col">
-              <h1
+              <motion.h1
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
                 className={`${playfair.className} font-bold md:text-7xl text-4xl md:text-white text-primary md:mr-10 md:mt-5 md:text-right text-center `}
               >
                 Explore <br /> Sri Lanka
-              </h1>
+              </motion.h1>
             </div>
             {/* <div className="md:flex mt-5 hidden">
               <Image

@@ -48,7 +48,7 @@ export default function Homepage() {
   const packages = [
     {
       name: "Cultural - Heritage Tours",
-      image: "/assets/Images/Desti/kandycard.jpg",
+      image: "/assets/Images/Pack/kandy.jpg",
     },
     { name: "Beach Holidays", image: "/assets/Images/Pack/seapack2.jpg" },
     {
@@ -61,9 +61,9 @@ export default function Homepage() {
     },
     { name: "Ramayana Yathra", image: "/assets/Images/Pack/rama.jpg" },
     { name: "Adventure Tours", image: "/assets/Images/Pack/adve.jpg" },
-    { name: "Dream Weddings", image: "/assets/Images/Pack/.jpg" },
+    { name: "Dream Weddings", image: "/assets/Images/Pack/wedd.jpg" },
     { name: "Romantic Holidays", image: "/assets/Images/Pack/roma.jpg" },
-    { name: "Northern Sri Lanka", image: "/assets/Images/Pack/.jpg" },
+    { name: "Northern Sri Lanka", image: "/assets/Images/Pack/noth.jpg" },
     { name: "Excursions", image: "/assets/Images/Pack/excus.jpg" },
   ];
 
@@ -148,12 +148,22 @@ export default function Homepage() {
         <div className="absolute inset-0 md:bg-black/40" />
         <div className="relative z-10 flex items-center justify-center md:h-full h-[400] text-center">
           <Container>
-            <h1 className={`${playfair.className} text-5xl md:text-6xl font-bold md:text-white text-primary`}>
+            <motion.h1
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className={`${playfair.className} text-5xl md:text-6xl font-bold md:text-white text-primary`}
+            >
               Explore the World
-            </h1>
-            <p className="mt-4 text-lg md:text-gray-200 text-secondary2">
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="mt-4 text-lg md:text-gray-200 text-secondary2"
+            >
               Discover destinations and experiences.
-            </p>
+            </motion.p>
           </Container>
         </div>
       </div>
@@ -171,10 +181,10 @@ export default function Homepage() {
             {/* Left Arrow */}
             <button
               onClick={prevSlide}
-              className="absolute left-0 z-20 bg-primary p-3 rounded-full shadow-md hover:bg-white transition"
+              className="absolute left-0 z-20 bg-primary p-3 rounded-full shadow-md transition"
               aria-label="Previous"
             >
-              <ChevronLeft className="w-6 h-6 text-white hover:text-primary" />
+              <ChevronLeft className="w-6 h-6 text-white " />
             </button>
 
             {/* Package Cards */}
@@ -248,10 +258,10 @@ export default function Homepage() {
               {/* Left Arrow */}
               <button
                 onClick={prevDest}
-                className="absolute left-0 z-20 bg-primary p-3 rounded-full shadow-md hover:bg-white transition"
+                className="absolute left-0 z-20 bg-primary p-3 rounded-full shadow-md  transition"
                 aria-label="Previous destination"
               >
-                <ChevronLeft className="w-6 h-6 text-white hover:text-primary" />
+                <ChevronLeft className="w-6 h-6 text-white " />
               </button>
 
               {/* Destination Cards */}
@@ -344,7 +354,7 @@ export default function Homepage() {
                 Lorem ipsum dolor sit amet.
               </div>
               <div className="flex md:flex-row flex-col justify-center md:gap-32 gap-10 items-center ">
-                <div className="flex flex-col text-4xl font-bold  ">
+                <div className="flex flex-col text-4xl font-bold text-center ">
                   <div className="">Tour Guides</div>
                   <div className="text-center text-primary">{guides}+</div>
                 </div>
@@ -362,21 +372,27 @@ export default function Homepage() {
                 Travel Services
               </div>
               <div className="flex flex-col gap-3 mt-5">
+                <div className="border-2 rounded-xl w-80 h-16  border-primary2 md:ml-[600px] flex flex-row items-center justify-center gap-2">
+                  <div className="text-center flex text-xl ">
+                    24/7 Customer Support
+                  </div>
+                  <Truck className="flex text-primary2" size={40} />
+                </div>
+                <div className="border-2 rounded-xl w-80 h-16  border-primary2 md:ml-[550px] flex flex-row items-center justify-center gap-2">
+                  <div className="text-center flex text-xl ">
+                    Personalized Travel Assis
+                  </div>
+                  <Truck className="flex text-primary2" size={40} />
+                </div>
                 <div className="border-2 rounded-xl w-80 h-16  border-primary2 md:ml-[500px] flex flex-row items-center justify-center gap-2">
                   <div className="text-center flex text-xl ">
-                    Island Wide Transport
+                    Dedicated Tour Coordinaters
                   </div>
                   <Truck className="flex text-primary2" size={40} />
                 </div>
-                <div className="border-2 rounded-xl w-80 h-16  border-primary2 md:ml-[400px] flex flex-row items-center justify-center gap-2">
+                <div className="border-2 rounded-xl w-80 h-16  border-primary2 md:ml-[450px] flex flex-row items-center justify-center gap-2">
                   <div className="text-center flex text-xl ">
-                    Island Wide Transport
-                  </div>
-                  <Truck className="flex text-primary2" size={40} />
-                </div>
-                <div className="border-2 rounded-xl w-80 h-16  border-primary2 md:ml-[300px] flex flex-row items-center justify-center gap-2">
-                  <div className="text-center flex text-xl ">
-                    Island Wide Transport
+                    All In One Travel Solutions
                   </div>
                   <Truck className="flex text-primary2" size={40} />
                 </div>

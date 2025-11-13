@@ -9,7 +9,7 @@ export default function PackagesPage() {
   const packages = [
     {
       name: "Cultural - Heritage Tours",
-      image: "/assets/Images/Desti/kandycard.jpg",
+      image: "/assets/Images/Pack/kandy.jpg",
     },
     { name: "Beach Holidays", image: "/assets/Images/Pack/seapack2.jpg" },
     {
@@ -22,9 +22,9 @@ export default function PackagesPage() {
     },
     { name: "Ramayana Yathra", image: "/assets/Images/Pack/rama.jpg" },
     { name: "Adventure Tours", image: "/assets/Images/Pack/adve.jpg" },
-    { name: "Dream Weddings", image: "/assets/Images/Pack/.jpg" },
+    { name: "Dream Weddings", image: "/assets/Images/Pack/wedd.jpg" },
     { name: "Romantic Holidays", image: "/assets/Images/Pack/roma.jpg" },
-    { name: "Northern Sri Lanka", image: "/assets/Images/Pack/.jpg" },
+    { name: "Northern Sri Lanka", image: "/assets/Images/Pack/noth.jpg" },
     { name: "Excursions", image: "/assets/Images/Pack/excus.jpg" },
   ];
 
@@ -36,22 +36,25 @@ export default function PackagesPage() {
           // style={{
           //   backgroundImage: "url('/assets/Images/Desti/ellacard.jpg')",
           // }}
-        ><Image
-          src="/assets/Images/Desti/ellacard.jpg"
-          alt="background"
-          fill
-          priority
-          className="object-cover brightness-75 md:flex hidden"
-        />
+        >
+          <Image
+            src="/assets/Images/Desti/ellacard.jpg"
+            alt="background"
+            fill
+            priority
+            className="object-cover brightness-75 md:flex hidden"
+          />
           <div className="absolute inset-0 "></div>
-          <div
+          <motion.h1
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             className={`${playfair.className} relative text-4xl md:text-7xl md:text-right text-center md:text-white text-primary font-bold md:mt-36 mt-10 md:mr-20 font-sans3 `}
           >
             Discover <br /> Our Packages
-          </div>
+          </motion.h1>
           <div className="flex justify-center md:mt-60 relative ">
             <div className="bg-white w-[1200] ">
-
               <div className="px-6 md:px-16   mt-10 ">
                 {/* Heading */}
 
@@ -119,10 +122,7 @@ export default function PackagesPage() {
                     ))}
                   </motion.div>
                 </div>
-                
               </div>
-
-
             </div>
           </div>
         </div>

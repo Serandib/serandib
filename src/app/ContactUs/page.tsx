@@ -11,24 +11,79 @@ export default function ContactUsPage() {
 
   const faqs = [
     {
-      question: "How can I contact your support team?",
+      question: "What services do you offer as a travel agency?",
       answer:
-        "You can contact us via email, phone, or our website contact form. Our support team is available 24/7 to assist you with any inquiries.",
+        "We offer tour planning, hotel bookings, transportation, guided excursions, flight ticketing, visa assistance, safari tours, and 24/7 travel support to ensure a hassle-free vacation experience.",
     },
     {
-      question: "Do you offer group or corporate travel packages?",
+      question: "Can I customize my travel itinerary?",
       answer:
-        "Yes! We specialize in custom travel experiences, including group and corporate tours. Contact us to tailor your journey.",
+        "Absolutely! We specialize in tailor-made packages based on your interests, preferred travel style, budget, and travel dates.",
     },
     {
-      question: "Can I customize my travel plan?",
+      question: "Do you offer airport pick-up and drop-off services?",
       answer:
-        "Absolutely. Our travel experts will help you design a personalized itinerary to match your preferences, pace, and interests.",
+        "Yes, all our packages can include private airport transfers for your comfort and convenience.",
     },
     {
-      question: "Where are you located?",
+      question: "Are your tours suitable for families and children?",
       answer:
-        "Our office is located at No. 220A 1/1, Bauddhaloka Mawatha, Colombo 07, Sri Lanka.",
+        "Yes, we create family-friendly itineraries with suitable accommodations, activities, and safe travel arrangements for children and seniors.",
+    },
+    {
+      question: "How do I confirm a booking?",
+      answer:
+        "You can confirm your booking by making an initial deposit. Once the payment is received, we will provide you with all confirmations and travel documents.",
+    },
+    {
+      question: "What payment methods do you accept?",
+      answer:
+        "We accept bank transfers, credit/debit cards, and online payment gateways. International clients can also pay via secure online platforms.",
+    },
+    {
+      question: "Do I need a visa to visit Sri Lanka?",
+      answer:
+        "Yes, most travelers need an Electronic Travel Authorization (ETA) to enter Sri Lanka. We can assist you with the visa application process.",
+    },
+    {
+      question: "Is travel insurance included in the package?",
+      answer:
+        "Travel insurance is optional but highly recommended. We can arrange it upon request.",
+    },
+    {
+      question: "Can I make changes to my itinerary after booking?",
+      answer:
+        "Yes, modifications can be made depending on hotel and activity availability. Additional charges may apply based on the changes.",
+    },
+    {
+      question: "What happens if my flight is delayed or canceled?",
+      answer:
+        "Our support team will assist you with rescheduling transfers and tour activities to ensure minimal disruption to your journey.",
+    },
+    {
+      question: "Are meals included in the tour packages?",
+      answer:
+        "Meals depend on the package type. We offer options such as breakfast-only, half board, or full board. You can choose based on your preference.",
+    },
+    {
+      question: "Do you provide tour guides?",
+      answer:
+        "Yes, we provide professional, multilingual licensed tour guides and chauffeur-guides knowledgeable about Sri Lanka’s history, culture, and nature.",
+    },
+    {
+      question: "Is it safe to travel in Sri Lanka?",
+      answer:
+        "Yes, Sri Lanka is a safe and welcoming destination for tourists. We ensure all our travel arrangements meet safety and comfort standards.",
+    },
+    {
+      question: "What is your cancellation policy?",
+      answer:
+        "Cancellation terms depend on the package and time of cancellation. We will provide detailed policy information before booking confirmation.",
+    },
+    {
+      question: "How do I contact you during my trip?",
+      answer:
+        "We offer 24/7 customer support via phone, WhatsApp, and email to assist you throughout your journey.",
     },
   ];
 
@@ -37,7 +92,7 @@ export default function ContactUsPage() {
       {/* Hero Section */}
       <section className="relative h-[500px] md:h-[600px] w-full mt-24 rounded-3xl overflow-hidden shadow-lg">
         <Image
-          src="/assets/Images/Pack/yala.jpg"
+          src="/assets/Images/ContactUs/fish.jpg"
           alt="Contact Us"
           fill
           className="object-cover"
@@ -57,7 +112,8 @@ export default function ContactUsPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mt-6 text-lg md:text-xl max-w-2xl text-center"
           >
-            We’re here to help you plan your dream holiday — wherever your journey takes you.
+            We’re here to help you plan your dream holiday — wherever your
+            journey takes you.
           </motion.p>
         </div>
       </section>
@@ -72,12 +128,13 @@ export default function ContactUsPage() {
         {/* Left Side Info */}
         <div className="flex flex-col gap-6 text-center lg:text-start flex-1">
           <h2 className="text-4xl md:text-5xl font-bold">
-            Let’s make your <span className="text-primary2">dream trip</span> real
+            Let’s make your <span className="text-primary2">dream trip</span>{" "}
+            real
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            Reach out to our travel experts for personalized assistance.  
-            Whether you’re planning your honeymoon, an adventure escape,  
-            or a cultural exploration — we’re just a message away.
+            Reach out to our travel experts for personalized assistance. Whether
+            you’re planning your honeymoon, an adventure escape, or a cultural
+            exploration — we’re just a message away.
           </p>
           <div className="flex justify-center lg:justify-center mt-5">
             <Image
@@ -93,7 +150,9 @@ export default function ContactUsPage() {
         {/* Right Side Form */}
         <div className="flex-1 w-full">
           <div className="bg-white/80 backdrop-blur-md shadow-lg p-8 rounded-2xl border border-gray-200">
-            <h3 className="text-3xl font-semibold mb-6 text-center">Send Us a Message</h3>
+            <h3 className="text-3xl font-semibold mb-6 text-center">
+              Send Us a Message
+            </h3>
             <form className="flex flex-col gap-4">
               <input
                 type="text"
@@ -149,15 +208,19 @@ export default function ContactUsPage() {
         <h2 className="text-4xl font-bold mb-10 text-center">
           Your <span className="text-primary2">Questions</span>, Answered.
         </h2>
-        <div className="max-w-3xl mx-auto space-y-6">
+        <div className="max-w-3xl mx-auto space-y-6 ">
           {faqs.map((faq, index) => (
-            <div key={index} className="border-b border-gray-300 pb-4">
+            <div key={index} className="border-b border-gray-300 pb-4 ">
               <div
-                className="flex justify-between items-center cursor-pointer text-lg font-medium text-gray-700 hover:text-primary transition"
+                className="flex justify-between items-center cursor-pointer text-xl font-medium text-gray-700 hover:text-primary transition "
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
                 {faq.question}
-                {openIndex === index ? <ChevronUp size={22} /> : <ChevronDown size={22} />}
+                {openIndex === index ? (
+                  <ChevronUp size={22} />
+                ) : (
+                  <ChevronDown size={22} />
+                )}
               </div>
               <AnimatePresence>
                 {openIndex === index && (
@@ -184,7 +247,9 @@ export default function ContactUsPage() {
         transition={{ duration: 0.8 }}
         className="mt-32 mb-40 text-center"
       >
-        <h3 className="text-3xl font-bold mb-2">SerendibGo (Private) Limited</h3>
+        <h3 className="text-3xl font-bold mb-2">
+          SerendibGo (Private) Limited
+        </h3>
         <p className="text-lg text-gray-600 mb-10">
           Let’s make your dream trip a reality.
         </p>
@@ -204,7 +269,9 @@ export default function ContactUsPage() {
           <div className="flex items-center gap-3">
             <MapPin size={28} />
             <div className="text-center lg:text-start">
-              No 220A 1/1,<br /> Bauddhaloka Mawatha,<br /> Colombo 07, Sri Lanka
+              No 220A 1/1,
+              <br /> Bauddhaloka Mawatha,
+              <br /> Colombo 07, Sri Lanka
             </div>
           </div>
         </div>

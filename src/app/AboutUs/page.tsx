@@ -10,7 +10,7 @@ export default function AboutUsPage() {
         {/* Hero Section */}
         <section className="relative w-full h-[500px] md:h-[600px] rounded-3xl overflow-hidden shadow-lg">
           <Image
-            src="/assets/Images/Pack/yala.jpg"
+            src="/assets/Images/About/tea.jpg"
             alt="SerendibGo"
             fill
             className="object-cover"
@@ -64,7 +64,7 @@ export default function AboutUsPage() {
           </div>
           <div className="flex-1">
             <Image
-              src="/assets/Images//Pack/yala.jpg"
+              src="/assets/Images/About/man.jpg"
               alt="Our Story"
               width={600}
               height={400}
@@ -113,6 +113,79 @@ export default function AboutUsPage() {
             nature, and human connection — turning every traveler’s dream into
             timeless memories.&quot;
           </p>
+        </motion.section>
+
+        {/* Our Services Section */}
+        <motion.section
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="bg-primary/10 rounded-3xl p-10 md:p-16 shadow-md"
+        >
+          <h2 className="font-bold text-4xl mb-6 text-center">
+            Our <span className="text-primary2">Services</span>
+          </h2>
+          <div className="grid md:grid-cols-2 gap-6 text-gray-700 text-lg max-w-4xl mx-auto leading-relaxed">
+            <div className="p-4 bg-white/70 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300">
+              <strong>1. Tour Planning & Custom Itineraries</strong>
+              <p className="mt-2">
+                Tailor-made travel packages Personalized day-by-day itineraries
+                Themed tours (wildlife, wellness, Ayurveda, heritage trails,
+                beach escapes)
+              </p>
+            </div>
+            <div className="p-4 bg-white/70 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300">
+              <strong>2. Accommodation Booking</strong>
+              <p className="mt-2">
+                Hotel, villa, resort, boutique stay arrangements. Budget to
+                luxury options Exclusive partner rates and complimentary
+                upgrades
+              </p>
+            </div>
+            <div className="p-4 bg-white/70 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300">
+              <strong>3. Transportation & Transfers</strong>
+              <p className="mt-2">
+                Airport pick-up and drop-off. Private chauffeur services. Luxury
+                vehicles, jeeps for safaris, and train ticket reservations.
+              </p>
+            </div>
+            <div className="p-4 bg-white/70 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300">
+              <strong>4. Excursions & Activities</strong>
+              <p className="mt-2">
+                Guided city tours Wildlife jeep safaris (Yala, Udawalawe,
+                Wilpattu). Whale watching, hiking, water sports, cultural
+                performances.
+              </p>
+            </div>
+            <div className="p-4 bg-white/70 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300">
+              <strong>5. Ticketing & Travel Documentation</strong>
+              <p className="mt-2">
+                Flight booking (domestic and international). Visa assistance.
+                Travel insurance arrangement.
+              </p>
+            </div>
+            <div className="p-4 bg-white/70 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300">
+              <strong>6. 24/7 Travel Assistance</strong>
+              <p className="mt-2">
+                On-tour customer support. Emergency assistance and rescheduling
+                help. Local guide coordination.
+              </p>
+            </div>
+            <div className="p-4 bg-white/70 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300">
+              <strong>7. MICE & Corporate Travel</strong>
+              <p className="mt-2">
+                Meetings, Incentives, Conferences, and Events planning. Group
+                travel packages. Team-building retreat management.
+              </p>
+            </div>
+            <div className="p-4 bg-white/70 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300">
+              <strong>8. Luxury & Premium Services</strong>
+              <p className="mt-2">
+                Helicopter tours. Private yacht charters. Exclusive dining and
+                spa experiences.
+              </p>
+            </div>
+          </div>
         </motion.section>
 
         {/* Sustainability Section */}
