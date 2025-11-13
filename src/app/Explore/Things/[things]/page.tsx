@@ -16,7 +16,7 @@ const thingsData: Record<
     thingsToAvoid: string[];
   }
 > = {
-  hiking: {
+  hikingandtrekking: {
     title: "Hiking and Trekking",
     image: "/assets/Images/Things/hike.jpg",
     description:
@@ -40,7 +40,7 @@ const thingsData: Record<
       "Do not disturb wildlife or take plants/rocks as souvenirs",
     ],
   },
-  whale: {
+  whalewatching: {
     title: "Whale Watching",
     image: "/assets/Images/Desti/mirrisacard.jpg",
     description:
@@ -57,7 +57,7 @@ const thingsData: Record<
       "Don’t board overcrowded or unlicensed boats",
     ],
   },
-  scuba: {
+  scubadivingandsnorkeling: {
     title: "Scuba Diving & Snorkeling",
     image: "/assets/Images/Things/dive.jpg",
     description:
@@ -74,7 +74,7 @@ const thingsData: Record<
       "Do not apply harmful sunscreen (use reef-safe products)",
     ],
   },
-  cycling: {
+  cyclingexperiences: {
     title: "Cycling Experiences",
     image: "/assets/Images/Things/cycle.jpg",
     description:
@@ -97,7 +97,7 @@ const thingsData: Record<
       "Avoid wildlife paths without a guide",
     ],
   },
-  tea: {
+  teaestatewalks: {
     title: "Tea Estate Walks",
     image: "/assets/Images/Things/tea.jpg",
     description:
@@ -114,7 +114,7 @@ const thingsData: Record<
       "Be mindful of slippery terrain during rain",
     ],
   },
-  garden: {
+  gardenrambles: {
     title: "Garden Rambles",
     image: "/assets/Images/Things/garden.jpg",
     description:
@@ -131,7 +131,7 @@ const thingsData: Record<
       "Do not feed animals or birds",
     ],
   },
-  bird: {
+  birdwatching: {
     title: "Bird Watching",
     image: "/assets/Images/Things/bird.jpg",
     description:
@@ -153,7 +153,7 @@ const thingsData: Record<
       "Avoid walking off designated paths",
     ],
   },
-  temple: {
+  templetours: {
     title: "Temple Tours",
     image: "/assets/Images/Things/temple.jpg",
     description:
@@ -179,7 +179,7 @@ const thingsData: Record<
 
 export default function ThingDetailsPage() {
   const params = useParams();
-  const thing = (params.things as string)?.toLowerCase();
+  const thing = (params.things as string)?.replace(/\s+/g, "").toLowerCase();
   const data = thingsData[thing];
 
   if (!data) {

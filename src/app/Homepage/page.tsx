@@ -15,6 +15,26 @@ import {
 } from "lucide-react";
 
 export default function Homepage() {
+  // Add this near the top of your component (inside Homepage)
+  const heroImages = [
+    "/assets/Images/Desti/dambu.jpg",
+    "/assets/Images/Desti/ella.jpg",
+    "/assets/Images/Desti/jaffna.jpg",
+    "/assets/Images/Desti/kandy.jpg",
+    "/assets/Images/Desti/polo.jpg",
+    "/assets/Images/Desti/yala.jpg",
+  ];
+
+  const [currentHero, setCurrentHero] = useState(0);
+
+  // Change image every 5 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentHero((prev) => (prev + 1) % heroImages.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
   const [guides, setGuides] = useState(0);
   const [experience, setExperience] = useState(0);
 
@@ -137,15 +157,28 @@ export default function Homepage() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <div className="relative w-full md:h-[100vh] h-[60vh]">
-        <Image
-          src="/assets/Images/Desti/explore1.jpg"
-          alt="background"
-          fill
-          priority
-          className="object-cover brightness-75 md:flex hidden"
-        />
-        <div className="absolute inset-0 md:bg-black/40" />
+      {/* Hero Section */}
+      <div className="relative w-full md:h-[100vh] h-[60vh] overflow-hidden">
+        <AnimatePresence mode="sync">
+          <motion.div
+            key={heroImages[currentHero]}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 2 }}
+            className="absolute inset-0"
+          >
+            <Image
+              src={heroImages[currentHero]}
+              alt="background"
+              fill
+              priority
+              className="object-cover brightness-75 md:flex hidden"
+            />
+            <div className="absolute inset-0 md:bg-black/40" />
+          </motion.div>
+        </AnimatePresence>
+
         <div className="relative z-10 flex items-center justify-center md:h-full h-[400] text-center">
           <Container>
             <motion.h1

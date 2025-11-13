@@ -1,4 +1,4 @@
-import { playfair, sans3 } from "@/styles/fonts/fonts";
+import { playfair } from "@/styles/fonts/fonts";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 

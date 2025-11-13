@@ -7,14 +7,14 @@ import { playfair } from "@/styles/fonts/fonts";
 
 export default function ThingsPage() {
   const things = [
-    { name: "Hiking", image: "/assets/Images/Things/hikecard.jpg" },
-    { name: "Whale", image: "/assets/Images/Things/whalecard.jpg" },
-    { name: "Scuba", image: "/assets/Images/Things/divecard.jpg" },
-    { name: "Cycling", image: "/assets/Images/Things/cyclecard.jpg" },
-    { name: "Tea", image: "/assets/Images/Things/teacard.jpg" },
-    { name: "Garden", image: "/assets/Images/Things/gardencard.jpg" },
-    { name: "Bird", image: "/assets/Images/Things/birdcard.jpg" },
-    { name: "Temple", image: "/assets/Images/Things/templecard.jpg" },
+    { name: "Hiking and Trekking", image: "/assets/Images/Things/hikecard.jpg" },
+    { name: "Whale Watching", image: "/assets/Images/Things/whalecard.jpg" },
+    { name: "Scuba Diving and Snorkeling", image: "/assets/Images/Things/divecard.jpg" },
+    { name: "Cycling Experiences", image: "/assets/Images/Things/cyclecard.jpg" },
+    { name: "Tea Estate Walks", image: "/assets/Images/Things/teacard.jpg" },
+    { name: "Garden Rambles", image: "/assets/Images/Things/gardencard.jpg" },
+    { name: "Bird Watching", image: "/assets/Images/Things/birdcard.jpg" },
+    { name: "Temple Tours", image: "/assets/Images/Things/templecard.jpg" },
   ];
 
   return (
@@ -69,7 +69,7 @@ export default function ThingsPage() {
               </div>
 
               <Link
-                href={`/Explore/Things/${item.name}`}
+                href={`/Explore/Things/${item.name.replace(/\s+/g, "")}`}
                 className="absolute inset-0"
               />
             </motion.div>

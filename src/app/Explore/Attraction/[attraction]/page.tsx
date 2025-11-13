@@ -6,7 +6,7 @@ const attractionsData: Record<
   string,
   { title: string; description: string; topPlaces: string[]; image: string }
 > = {
-  "cultural-heritageattractions": {
+  "culturalheritageattractions": {
     title: "Cultural & Heritage A.",
     description:
       "Sri Lanka is home to some of the oldest civilizations in the world, where ancient kingdoms, sacred temples, and UNESCO World Heritage Sites reflect the island’s deep spiritual and historical significance. From majestic rock fortresses to royal palaces and ancient stupas, these sites showcase the craftsmanship, mythology, and enduring cultural legacy of the country.",
