@@ -13,7 +13,7 @@ export default function ExplorePage() {
     {
       title: "Destinations",
       text: "Discover Sri Lanka’s diverse destinations, each offering something uniquely magical. Wander through the misty highlands of Nuwara Eliya, marvel at the sacred temples of Kandy, explore the cultural triangle’s ancient cities, or relax along the palm-fringed southern coast. Venture into the wilderness of Yala or Wilpattu for a glimpse of majestic wildlife, or sail through the calm lagoons of the east. Wherever you go, you’ll find beauty, history, and authentic island charm.",
-      image: "/assets/Images/Desti/explore1.jpg",
+      image: "/assets/Images/Desti/explore.jpg",
       reverse: false,
       link: "/Explore/Destinations",
     },
@@ -50,7 +50,7 @@ export default function ExplorePage() {
         // }}
       >
         <Image
-          src="/assets/Images/Desti/explore.jpg"
+          src="/assets/Images/Desti/explore1.jpg"
           alt="background"
           fill
           priority

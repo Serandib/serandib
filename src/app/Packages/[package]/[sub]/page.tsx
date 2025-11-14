@@ -89,57 +89,17 @@ export default async function SubPackagePage({ params }: Props) {
     <Container>
       <div className="mt-44">
         <div className="flex flex-col mb-5">
-          <div className="text-4xl font-bold  mb-5 flex">{sub.title}</div>
+          <div className="text-4xl font-bold text-center mb-5 flex">
+            {sub.title}
+          </div>
           <div className="rounded-2xl bg-primary text-white p-1 flex w-32  text-center justify-center ">
             Most Popular
           </div>
         </div>
-        {/* <div className="flex md:flex-row flex-col gap-5">
-          <div className="flex">
-            <Image
-              width={500}
-              height={400}
-              src={sub.image}
-              alt={sub.title}
-              className="rounded  shadow-lg"
-            />
-          </div>
-          <div className="flex  flex-col gap-5">
-            <Image
-              width={300}
-              height={300}
-              src={sub.image2}
-              alt={sub.title}
-              className="rounded  shadow-lg"
-            />
-            <Image
-              width={300}
-              height={300}
-              src={sub.image3}
-              alt={sub.title}
-              className="rounded  shadow-lg"
-            />
-          </div>
-          <div className="flex  flex-col gap-5">
-            <Image
-              width={300}
-              height={300}
-              src={sub.image4}
-              alt={sub.title}
-              className="rounded  shadow-lg"
-            />
-            <Image
-              width={300}
-              height={300}
-              src={sub.image5}
-              alt={sub.title}
-              className="rounded  shadow-lg"
-            />
-          </div>
-        </div> */}
+
         <div className="flex md:flex-row flex-col justify-between">
-          <div className="w-1/2 text-lg font-medium mt-5 flex flex-col">
-            <div className="font-medium text-justify">{sub.description}</div>
+          <div className="md:w-1/2 text-lg font-medium mt-5 flex flex-col">
+            <div className="font-medium md:text-justify text-center">{sub.description}</div>
             <ReadMoreModal
               title={sub.title}
               description2={sub.description2}

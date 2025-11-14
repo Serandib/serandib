@@ -23,7 +23,7 @@ export default function PackagesPage() {
     { name: "Ramayana Yathra", image: "/assets/Images/Pack/rama.jpg" },
     { name: "Adventure Tours", image: "/assets/Images/Pack/adve.jpg" },
     { name: "Dream Weddings", image: "/assets/Images/Pack/wedd.jpg" },
-    { name: "Romantic Holidays", image: "/assets/Images/Pack/roma.jpg" },
+    { name: "Romantic Holidays", image: "/assets/Images/Pack/wed.jpg" },
     { name: "Northern Sri Lanka", image: "/assets/Images/Pack/noth.jpg" },
     { name: "Excursions", image: "/assets/Images/Pack/excus.jpg" },
   ];
@@ -32,7 +32,7 @@ export default function PackagesPage() {
     <div>
       <Container>
         <div
-          className=" bg- bg-center bg-no-repeat py-24 h-[700] lg:mb-[1500] md:mb-[1500] mb-[3500] "
+          className=" bg- bg-center bg-no-repeat py-24 h-[700] lg:mb-[1500] md:mb-[1500] mb-[3500] relative "
           // style={{
           //   backgroundImage: "url('/assets/Images/Desti/ellacard.jpg')",
           // }}

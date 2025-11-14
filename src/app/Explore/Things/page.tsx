@@ -7,10 +7,19 @@ import { playfair } from "@/styles/fonts/fonts";
 
 export default function ThingsPage() {
   const things = [
-    { name: "Hiking and Trekking", image: "/assets/Images/Things/hikecard.jpg" },
+    {
+      name: "Hiking and Trekking",
+      image: "/assets/Images/Things/hikecard.jpg",
+    },
     { name: "Whale Watching", image: "/assets/Images/Things/whalecard.jpg" },
-    { name: "Scuba Diving and Snorkeling", image: "/assets/Images/Things/divecard.jpg" },
-    { name: "Cycling Experiences", image: "/assets/Images/Things/cyclecard.jpg" },
+    {
+      name: "Scuba Diving and Snorkeling",
+      image: "/assets/Images/Things/divecard.jpg",
+    },
+    {
+      name: "Cycling Experiences",
+      image: "/assets/Images/Things/cyclecard.jpg",
+    },
     { name: "Tea Estate Walks", image: "/assets/Images/Things/teacard.jpg" },
     { name: "Garden Rambles", image: "/assets/Images/Things/gardencard.jpg" },
     { name: "Bird Watching", image: "/assets/Images/Things/birdcard.jpg" },
@@ -69,7 +78,9 @@ export default function ThingsPage() {
               </div>
 
               <Link
-                href={`/Explore/Things/${item.name.replace(/\s+/g, "")}`}
+                href={`/Explore/Things/${item.name
+                  .replace(/\s+/g, "")
+                  .toLowerCase()}`}
                 className="absolute inset-0"
               />
             </motion.div>

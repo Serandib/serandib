@@ -1,9 +1,7 @@
-"use client";
-
-import { useParams } from "next/navigation";
+import { playfair } from "@/styles/fonts/fonts";
 import Container from "@/components/common/container";
 import Image from "next/image";
-import { playfair } from "@/styles/fonts/fonts";
+import { notFound } from "next/navigation";
 
 const thingsData: Record<
   string,
@@ -177,20 +175,15 @@ const thingsData: Record<
   },
 };
 
-export default function ThingDetailsPage() {
-  const params = useParams();
-  const thing = (params.things as string)?.replace(/\s+/g, "").toLowerCase();
+export default function ThingDetailsPage({
+  params,
+}: {
+  params: { things: string };
+}) {
+  const thing = params.things?.replace(/\s+/g, "").toLowerCase();
   const data = thingsData[thing];
 
-  if (!data) {
-    return (
-      <Container>
-        <div className="text-center py-10 text-2xl font-semibold text-gray-600">
-          Thing not found.
-        </div>
-      </Container>
-    );
-  }
+  if (!data) notFound();
 
   return (
     <Container>
@@ -251,4 +244,8 @@ export default function ThingDetailsPage() {
       </div>
     </Container>
   );
+}
+
+export function generateStaticParams() {
+  return Object.keys(thingsData).map((key) => ({ things: key }));
 }

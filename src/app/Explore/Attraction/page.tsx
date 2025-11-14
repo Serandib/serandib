@@ -8,7 +8,7 @@ import { playfair } from "@/styles/fonts/fonts";
 export default function AttractionPage() {
   const attractions = [
     {
-      name: "Cultural - Heritage Attractions",
+      name: "Cultural - Heritage Atractions",
       image: "/assets/Images/Attra/cultcard.jpg",
     },
     {
@@ -94,10 +94,9 @@ export default function AttractionPage() {
               </div>
 
               <Link
-                href={`/Explore/Attraction/${attraction.name.replace(
-                  /\s+/g,
-                  ""
-                )}`}
+                href={`/Explore/Attraction/${attraction.name
+                  .replace(/\s+/g, "")
+                  .toLowerCase()}`}
                 className="absolute inset-0"
               />
             </motion.div>

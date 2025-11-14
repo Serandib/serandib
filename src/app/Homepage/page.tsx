@@ -8,11 +8,14 @@ import { useEffect, useState } from "react";
 import {
   ChevronLeft,
   ChevronRight,
+  Handshake,
   LocationEdit,
   Mail,
   PhoneCall,
   Truck,
+  User,
 } from "lucide-react";
+import { SlSupport } from "react-icons/sl";
 
 export default function Homepage() {
   // Add this near the top of your component (inside Homepage)
@@ -37,29 +40,50 @@ export default function Homepage() {
 
   const [guides, setGuides] = useState(0);
   const [experience, setExperience] = useState(0);
+  const [vehicles, setVehicles] = useState(0);
+  const [hotels, setHotels] = useState(0);
 
   // Animate the numbers
   useEffect(() => {
     let guidesStart = 0;
     let expStart = 0;
-    const guidesEnd = 50;
-    const expEnd = 10;
+    let vehiclesStart = 0;
+    let hotelsStart = 0;
+
+    const guidesEnd = 100;
+    const expEnd = 40;
+    const vehiclesEnd = 50;
+    const hotelsEnd = 120;
 
     const duration = 2000; // 2 seconds
     const interval = 20; // update every 20ms
     const guidesStep = (guidesEnd / duration) * interval;
     const expStep = (expEnd / duration) * interval;
+    const vehiclesStep = (vehiclesEnd / duration) * interval;
+    const hotelsStep = (hotelsEnd / duration) * interval;
 
     const timer = setInterval(() => {
       guidesStart += guidesStep;
       expStart += expStep;
+      vehiclesStart += vehiclesStep;
+      hotelsStart += hotelsStep;
+
       if (guidesStart >= guidesEnd) guidesStart = guidesEnd;
       if (expStart >= expEnd) expStart = expEnd;
+      if (vehiclesStart >= vehiclesEnd) vehiclesStart = vehiclesEnd;
+      if (hotelsStart >= hotelsEnd) hotelsStart = hotelsEnd;
 
       setGuides(Math.floor(guidesStart));
       setExperience(Math.floor(expStart));
+      setVehicles(Math.floor(vehiclesStart));
+      setHotels(Math.floor(hotelsStart));
 
-      if (guidesStart === guidesEnd && expStart === expEnd)
+      if (
+        guidesStart === guidesEnd &&
+        expStart === expEnd &&
+        vehiclesStart === vehiclesEnd &&
+        hotelsStart === hotelsEnd
+      )
         clearInterval(timer);
     }, interval);
 
@@ -193,9 +217,9 @@ export default function Homepage() {
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="mt-4 text-lg md:text-gray-200 text-secondary2"
+              className="mt-4 text-xl md:text-gray-200 text-secondary2"
             >
-              Discover destinations and experiences.
+              From Dreams to Memories
             </motion.p>
           </Container>
         </div>
@@ -333,10 +357,9 @@ export default function Homepage() {
                       </div>
 
                       <Link
-                        href={`/Explore/Destinations/${place.name.replace(
-                          /\s+/g,
-                          ""
-                        )}`}
+                        href={`/Explore/Destinations/${place.name
+                          .replace(/\s+/g, "")
+                          .toLowerCase()}`}
                         className="absolute inset-0"
                       />
                     </motion.div>
@@ -381,25 +404,36 @@ export default function Homepage() {
           </div>
 
           <div className=" flex md:flex-row flex-col md:mt-28 mt-10">
-            <div className="flex flex-col md:gap-20 gap-10">
-              <div className="flex md:text-xl text-justify ">
-                In tincidunt egestas purus, vitae tincidunt dolor lobortis ac.
-                Lorem ipsum dolor sit amet.
-              </div>
-              <div className="flex md:flex-row flex-col justify-center md:gap-32 gap-10 items-center ">
-                <div className="flex flex-col text-4xl font-bold text-center ">
-                  <div className="">Tour Guides</div>
-                  <div className="text-center text-primary">{guides}+</div>
+            <div className="flex-1 ">
+              <div className="md:gap-20 gap-10 flex flex-col">
+                
+                <div className="flex flex-row  justify-center  gap-20 items-center ">
+                  <div className="flex flex-col md:text-4xl text-2xl font-bold text-center ">
+                    <div className="">Tour <br></br> Guides</div>
+                    <div className="text-center text-primary">{guides}+</div>
+                  </div>
+                  <div className="flex flex-col md:text-4xl text-2xl font-bold">
+                    <div>Hotels</div>
+                    <div className="text-center text-primary">{hotels}+</div>
+                  </div>
                 </div>
-                <div className="flex flex-col text-4xl font-bold">
-                  <div>Experience</div>
-                  <div className="text-center text-primary">
-                    {experience}+ years
+
+                <div className="flex md:flex-row flex-col  justify-center gap-10  items-center text-center ">
+                  <div className="flex flex-col md:text-4xl text-2xl font-bold text-center ">
+                    <div className="">Vehicals</div>
+                    <div className="text-center text-primary">{vehicles}+</div>
+                  </div>
+
+                  <div className="flex flex-col md:text-4xl text-2xl font-bold text-center">
+                    <div>Industrial Experience</div>
+                    <div className="text-center text-primary">
+                      {experience}+ years
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="flex-1 mt-20">
+            <div className="flex-1 md:mt-0 mt-16">
               <div className="md:text-5xl text-2xl text-primary2 font-semibold md:text-right text-center flex flex-col">
                 {" "}
                 Travel Services
@@ -409,19 +443,19 @@ export default function Homepage() {
                   <div className="text-center flex text-xl ">
                     24/7 Customer Support
                   </div>
-                  <Truck className="flex text-primary2" size={40} />
+                  <PhoneCall className="flex text-primary2" size={40} />
                 </div>
                 <div className="border-2 rounded-xl w-80 h-16  border-primary2 md:ml-[550px] flex flex-row items-center justify-center gap-2">
                   <div className="text-center flex text-xl ">
                     Personalized Travel Assis
                   </div>
-                  <Truck className="flex text-primary2" size={40} />
+                  <Handshake className="flex text-primary2" size={40} />
                 </div>
                 <div className="border-2 rounded-xl w-80 h-16  border-primary2 md:ml-[500px] flex flex-row items-center justify-center gap-2">
                   <div className="text-center flex text-xl ">
                     Dedicated Tour Coordinaters
                   </div>
-                  <Truck className="flex text-primary2" size={40} />
+                  <User className="flex text-primary2" size={40} />
                 </div>
                 <div className="border-2 rounded-xl w-80 h-16  border-primary2 md:ml-[450px] flex flex-row items-center justify-center gap-2">
                   <div className="text-center flex text-xl ">
@@ -435,7 +469,7 @@ export default function Homepage() {
 
           <div className="md:mt-28 mt-16 ">
             <div className="flex items-center justify-center md:text-4xl text-2xl font-medium">
-              SerendibGo (Private) Limited
+              SerendibGo Vacations
             </div>
             <div className="flex justify-center md:text-2xl text-xl">
               Let’s make your dream trip a reality.

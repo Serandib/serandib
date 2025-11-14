@@ -19,23 +19,23 @@ export default function EventsPage() {
     { name: "Poson Festival", image: "/assets/Images/UpgradePage/2.jpg" },
     { name: "Deepavali", image: "/assets/Images/UpgradePage/2.jpg" },
     { name: "Kataragama Festival", image: "/assets/Images/UpgradePage/2.jpg" },
-    {
-      name: "Sri Lanka Tea Festival",
-      image: "/assets/Images/UpgradePage/2.jpg",
-    },
-    {
-      name: "Negombo - Arugam Bay Beach Festivals",
-      image: "/assets/Images/UpgradePage/2.jpg",
-    },
+    // {
+    //   name: "Sri Lanka Tea Festival",
+    //   image: "/assets/Images/UpgradePage/2.jpg",
+    // },
+    // {
+    //   name: "Negombo - Arugam Bay Beach Festivals",
+    //   image: "/assets/Images/UpgradePage/2.jpg",
+    // },
     { name: "Navarathri Festival", image: "/assets/Images/UpgradePage/2.jpg" },
-    {
-      name: "Galle Literary Festival",
-      image: "/assets/Images/UpgradePage/2.jpg",
-    },
-    {
-      name: "World Surf League Arugam Bay Pro",
-      image: "/assets/Images/UpgradePage/2.jpg",
-    },
+    // {
+    //   name: "Galle Literary Festival",
+    //   image: "/assets/Images/UpgradePage/2.jpg",
+    // },
+    // {
+    //   name: "World Surf League Arugam Bay Pro",
+    //   image: "/assets/Images/UpgradePage/2.jpg",
+    // },
   ];
 
   return (
@@ -87,7 +87,7 @@ export default function EventsPage() {
               </div>
 
               <Link
-                href={`/Explore/Events/${event.name.replace(/\s+/g, "")}`}
+                href={`/Explore/Events/${event.name.replace(/\s+/g, "").toLowerCase()}`}
                 className="absolute inset-0"
               />
             </motion.div>

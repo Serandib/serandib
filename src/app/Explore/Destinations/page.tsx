@@ -76,7 +76,9 @@ export default function DestinationsPage() {
               </div>
 
               <Link
-                href={`/Explore/Destinations/${place.name.replace(/\s+/g, "")}`}
+                href={`/Explore/Destinations/${place.name
+                  .replace(/\s+/g, "")
+                  .toLowerCase()}`}
                 className="absolute inset-0"
               />
             </motion.div>

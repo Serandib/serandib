@@ -6,8 +6,8 @@ const attractionsData: Record<
   string,
   { title: string; description: string; topPlaces: string[]; image: string }
 > = {
-  "culturalheritageattractions": {
-    title: "Cultural & Heritage A.",
+  "cultural-heritageatractions": {
+    title: "Cultural & Heritage Atractions",
     description:
       "Sri Lanka is home to some of the oldest civilizations in the world, where ancient kingdoms, sacred temples, and UNESCO World Heritage Sites reflect the island’s deep spiritual and historical significance. From majestic rock fortresses to royal palaces and ancient stupas, these sites showcase the craftsmanship, mythology, and enduring cultural legacy of the country.",
     topPlaces: [
@@ -128,7 +128,9 @@ export default async function AttractionItemPage({ params }: Props) {
 
   return (
     <div className="p-10 flex flex-col items-center mt-40 gap-5">
-      <h1 className={`${playfair.className} text-4xl font-medium text-primary mb-5`}>
+      <h1
+        className={`${playfair.className} text-4xl font-medium text-primary mb-5`}
+      >
         {attraction.title}
       </h1>
       <div className="flex md:flex-row md:gap-28 flex-col gap-10">
@@ -160,14 +162,5 @@ export default async function AttractionItemPage({ params }: Props) {
 }
 
 export function generateStaticParams() {
-  return [
-    { attraction: "culturalheritage" },
-    { attraction: "hillcountry" },
-    { attraction: "wildlife" },
-    { attraction: "beaches" },
-    { attraction: "spiritual" },
-    { attraction: "natureeco" },
-    { attraction: "festivals" },
-    { attraction: "adventure" },
-  ];
+  return Object.keys(attractionsData).map((key) => ({ attraction: key }));
 }

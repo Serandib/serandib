@@ -23,7 +23,7 @@ export const packagesData: Record<
   "cultural-heritagetours": {
     title: "Cultural Heritage Tour",
     description:
-      "Explore ancient temples, colonial forts, and traditional villages to experience Sri Lanka’s rich cultural tapestry. This package combines historical sites, local cuisine, and curated guided experiences.",
+      "",
     image: "/assets/Images/UpgradePage/3.jpg",
     children: {
       signaturesrilankajourney: {

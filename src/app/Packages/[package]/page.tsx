@@ -22,11 +22,11 @@ export default async function PackagePage({ params }: Props) {
   if (key === "excursions") {
     return (
       <Container>
-        <div className="mt-24 w-full">
-          <div className=" rounded-lg overflow-hidden w-full max-w-6xl mx-auto  mt-48 ">
+        <div className="mt-32 w-full">
+          <div className=" rounded-lg overflow-hidden w-full max-w-6xl mx-auto   ">
             <div className=" inset-0 flex items-center justify-center">
               <h1
-                className={`${playfair.className} text-3xl md:text-5xl text-primary text-center px-6`}
+                className={`${playfair.className} text-3xl md:text-5xl text-primary text-center  px-6`}
               >
                 {pkg.title}
               </h1>
@@ -114,7 +114,7 @@ export default async function PackagePage({ params }: Props) {
     return (
       <Container>
         <div className="mt-32 w-full">
-          <div className=" rounded-lg overflow-hidden w-full max-w-5xl mx-auto mt-44">
+          <div className=" rounded-lg overflow-hidden w-full max-w-5xl mx-auto">
             <div className=" inset-0  flex items-center justify-center">
               <div
                 className={`${playfair.className} text-3xl md:text-5xl text-primary text-center px-6`}
@@ -192,7 +192,7 @@ export default async function PackagePage({ params }: Props) {
   return (
     <div className="p-10 flex flex-col items-center mt-32">
       <h1
-        className={`${playfair.className} text-4xl font-medium text-primary mb-5 `}
+        className={`${playfair.className} text-4xl font-medium text-primary mb-5 text-center`}
       >
         {pkg.title}
       </h1>
